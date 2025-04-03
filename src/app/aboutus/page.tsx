@@ -18,9 +18,7 @@ export default function Home() {
     return (
        <>
             <Header />
-            <section className="overflow-hidden lg:px-[80px] px-[40px]  pb-4 lg:pt-[150px] pt-[150px]"  data-aos="zoom-in"
-              data-aos-easing="linear"
-              data-aos-duration="1500">
+            <section className="overflow-hidden lg:px-[80px] px-[40px]  pb-4 lg:pt-[150px] pt-[150px]">
        
                 <div className="container-fluid p-0 m-0">
                     <div className=" row align-items-center ">

@@ -12,7 +12,7 @@ export default function Home() {
         
 
             <motion.section
-                className="lg:px-[80px] px-[20px] overflow-hidden lg:pt-[80px] pt-[40px] "
+                className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[150px] pt-[150px]"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1 }}

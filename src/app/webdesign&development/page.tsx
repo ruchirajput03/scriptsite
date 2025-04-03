@@ -21,7 +21,7 @@ export default function Home() {
         <Header/>
         
 
-            <section className='lg:px-[80px] px-[40px] overflow-hidden lg:pt-[150px] pt-[150px]' data-aos="fade-up">
+            <section className='lg:px-[80px] px-[40px] overflow-hidden lg:pt-[150px] pt-[150px]' >
                 <div  className='col-lg-6'>
                     <h1 className="lg:text-[60px] sm:text-[40px] text-[26px] lg:leading-[65px] sm:leading-[45px] leading-[35px]">
                         WEB DESIGN &amp; DEVELOPMENT
@@ -43,10 +43,10 @@ export default function Home() {
             </section>
 
 
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[20px] " data-aos="zoom-in">
+            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[20px] ">
                 <div className="pb-3 pt-3 text-gray-400 mb-4">Script Studio / Web Design &amp; Development</div>
                 <div className="flex flex-wrap">
-                    <div className="col-lg-6 order-lg-1 order-2" data-aos="zoom-in">
+                    <div className="col-lg-6 order-lg-1 order-2" >
 
 
                         <h1 className="lg:text-[60px] sm:text-[35px] text-[26px] lg:leading-[65px] sm:leading-[45px] leading-[35px] ">
@@ -101,7 +101,7 @@ export default function Home() {
                     </div></div>
             </section>
 
-            <section className="  lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]" data-aos="fade-up">
+            <section className="  lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]" >
                 <div className="flex flex-wrap ">
                     <div className="col-lg-6 ">
                         <Image src="/assets/ecommerce-image.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg w-full shadow-lg " />
@@ -136,7 +136,7 @@ export default function Home() {
 
 
             </section>
-            <section className="  lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]" data-aos="fade-up">
+            <section className="  lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]" >
                 <div className="flex flex-wrap">
 
 
@@ -174,7 +174,7 @@ export default function Home() {
            
            
 
-<section className="  lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]" data-aos="zoom-in">
+<section className="  lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]" >
                 <div className="flex flex-wrap ">
                     <div className="col-lg-6 ">
                         <Image src="/assets/inteligent-image.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg w-full shadow-lg " />
@@ -210,7 +210,7 @@ export default function Home() {
             <div className="border-t-2 ms-5 me-5 mt-20 sm:block hidden "></div>
 
          
-            <section className=" lg:px-[80px] px-[40px] flex flex-wrap overflow-hidden lg:pt-[80px] pt-[40px] " data-aos="fade-up">
+            <section className=" lg:px-[80px] px-[40px] flex flex-wrap overflow-hidden lg:pt-[80px] pt-[40px] " >
                
                 <div className=" col-lg-6 ">
                     <h1 className="lg:text-[50px] sm:text-[30px] text-white mt-10">OUR APPROACH:</h1>
@@ -229,7 +229,7 @@ export default function Home() {
             </section>
 
             <div className="border-t-2 ms-5 me-5 mt-20 sm:block hidden "></div>
-           <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-5" data-aos="zoom-in">
+           <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-5" >
                    <div className="container-fluid p-0 m-0">
                     <div className=" col-lg-12 ">
                        <p>Blog</p>
