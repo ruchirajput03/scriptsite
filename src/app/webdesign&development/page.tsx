@@ -1,8 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
 import Header from "@/app/compontes/header"
 import Footer from "@/app/compontes/footer";
 import "locomotive-scroll/dist/locomotive-scroll.css";
@@ -11,27 +9,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 
 export default function Home() {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const newsData = [
-        {
-            image: "/assets/Rectangle 14.png",
-            alt: "News 1",
-            date: "December 04, 2024",
-            text: "Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team"
-        },
-        {
-            image: "/assets/Rectangle 15.png",
-            alt: "News 2",
-            date: "December 02, 2024",
-            text: "Crafting the Design for Beyond the Screen Digital Products Marketplace"
-        },
-        {
-            image: "/assets/Rectangle 16.png",
-            alt: "News 3",
-            date: "November 30, 2024",
-            text: "Script Studio Technologies Claims Site of the Week at Awwwards!"
-        }
-    ];
+    
 
      useEffect(() => {
             AOS.init();
@@ -46,7 +24,7 @@ export default function Home() {
             <section className='lg:px-[80px] px-[40px] overflow-hidden lg:pt-[150px] pt-[150px]' data-aos="fade-up">
                 <div  className='col-lg-6'>
                     <h1 className="lg:text-[60px] sm:text-[40px] text-[26px] lg:leading-[65px] sm:leading-[45px] leading-[35px]">
-                        WEB DESIGN & DEVELOPMENT
+                        WEB DESIGN &amp; DEVELOPMENT
                     </h1>
                 
                 </div>
@@ -66,20 +44,20 @@ export default function Home() {
 
 
             <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[20px] " data-aos="zoom-in">
-                <div className="pb-3 pt-3 text-gray-400 mb-4">Script Studio / Web Design & Development</div>
+                <div className="pb-3 pt-3 text-gray-400 mb-4">Script Studio / Web Design &amp; Development</div>
                 <div className="flex flex-wrap">
                     <div className="col-lg-6 order-lg-1 order-2" data-aos="zoom-in">
 
 
                         <h1 className="lg:text-[60px] sm:text-[35px] text-[26px] lg:leading-[65px] sm:leading-[45px] leading-[35px] ">
-                            EXPERTS IN WEBSITE DESIGN & DEVELOPMENT
+                            EXPERTS IN WEBSITE DESIGN &amp; DEVELOPMENT
                         </h1>
                         <div className="col-lg-9">
                             <p className="mt-4 text-white font-semibold lg:text-[16px] sm:text-[18px] text-[14px]">
                                 At Script Studio, we specialize in creating custom, visually stunning, and user-friendly websites that not only look great but also rank high on search engines. Our web design and development team ensures that your website stands out and attracts more customers by blending aesthetic appeal with optimized functionality.
                             </p>
                             <p className="text-gray-400 mt-4 lg:text-[14px] sm:text-[16px] text-[14px]">
-                                We combine the right platforms, the latest technology, and a customized approach to suit your unique needs. Whether you're looking for an eCommerce site, web app, or mobile app, we employ cutting-edge tech to ensure top-tier performance. From the initial design phase to development and launch, we work closely with you to create a digital experience that captivates and converts.
+                                We combine the right platforms, the latest technology, and a customized approach to suit your unique needs. Whether  you&apos;re looking for an eCommerce site, web app, or mobile app, we employ cutting-edge tech to ensure top-tier performance. From the initial design phase to development and launch, we work closely with you to create a digital experience that captivates and converts.
                             </p></div>
 
                         <div className="flex flex-wrap">
@@ -90,7 +68,7 @@ export default function Home() {
 
                                 <li className="text-gray-400 lg:text-[16px] sm:text-[16px] text-[14px] mt-2">We craft and create standout websites.</li>
                                 <li className="underline text-white lg:text-[16px] sm:text-[16px] text-[14px] mt-2">
-                                    Submit your project details; we'll<br /> estimate costs and timeline.
+                                    Submit your project details; We&apos;ll<br /> estimate costs and timeline.
                                 </li>
 
                             </div>
@@ -103,8 +81,8 @@ export default function Home() {
                                 <li className="underline text-white lg:text-[16px] sm:text-[16px] text-[14px] mt-2">
                                     Wordpress Support Services
                                 </li>
-                                <li className="text-gray-400 lg:text-[16px] sm:text-[16px] text-[14px] mt-2">Custom Website Design & Development</li>
-                                <li className="text-gray-400 lg:text-[16px] sm:text-[16px] text-[14px] mt-2">WordPress Support & Troubleshooting</li>
+                                <li className="text-gray-400 lg:text-[16px] sm:text-[16px] text-[14px] mt-2">Custom Website Design &amp; Development</li>
+                                <li className="text-gray-400 lg:text-[16px] sm:text-[16px] text-[14px] mt-2">WordPress Support &amp; Troubleshooting</li>
                                 <li className="text-gray-400 lg:text-[16px] sm:text-[16px] text-[14px] mt-2">Plugin Integration</li>
                                 <li className="text-gray-400 lg:text-[16px] sm:text-[16px] text-[14px] mt-2">Performance Optimization</li>
 
@@ -121,7 +99,7 @@ export default function Home() {
 
                         <Image src="/assets/expertise-image.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg w-full shadow-lg" />
                     </div></div>
-            </section>"
+            </section>
 
             <section className="  lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]" data-aos="fade-up">
                 <div className="flex flex-wrap ">
@@ -134,21 +112,21 @@ export default function Home() {
                     <div className="col-lg-10">
                         <div className="pb-4 pt-4 text-gray-400 ">ECOMMERCE</div>
                         <h1 className="lg:text-[40px] sm:text-[30px] text-[20px] max-w-[460px] text-white leading-[1]">
-                            ECOMMERCE WEB DESIGN & ONLINE SHOP
+                            ECOMMERCE WEB DESIGN &amp; ONLINE SHOP
                         </h1>
                         <p className="mt-4 lg:text-[18px] sm:text-[18px] text-[16px]">
-                            Your digital storefront is your modern "High Street window." We help you create a compelling online shopping experience that engages customers and encourages conversions. Our team excels in integrating:
+                            Your digital storefront is your modern High Street window&ldquo; We help you create a compelling online shopping experience that engages customers and encourages conversions. Our team excels in integrating:
                         </p>
                         <ul className="mt-2 lg:text-[18px] sm:text-[18px] text-[16px] list-disc list-inside">
                             <li>Payment Systems</li>
                             <li>Shopping Cart Solutions</li>
                             <li>Facebook Shop Integration</li>
                             <li>Invoice Management</li>
-                            <li>WooCommerce & Stock Management</li>
-                            <li>Discount & Offer Management</li>
+                            <li>WooCommerce &amp; Stock Management</li>
+                            <li>Discount &amp; Offer Management</li>
                         </ul>
                         <p className="mt-4 lg:text-[18px] sm:text-[18px] text-[16px]">
-                            With over 92% of UK shoppers making online purchases, our expertise positions you to thrive in the competitive eCommerce landscape. The UK eCommerce market reached £200 billion in 2019, and we’re here to help you tap into this vast potential
+                            With over 92% of UK shoppers making online purchases, our expertise positions you to thrive in the competitive eCommerce landscape. The UK eCommerce market reached £200 billion in 2019, and  We&apos;re here to help you tap into this vast potential
                         </p>
                     </div>
                 </div>
@@ -258,7 +236,7 @@ export default function Home() {
                      </div>
                      <div className="col-lg-3">
                        <p className="font-[500] text-[50px] leading-[45px]">Latest News
-                         & Press</p>
+                         &amp; Press</p>
                      </div>
                    </div>
                  </section>

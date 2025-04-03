@@ -1,41 +1,15 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+
 import Header from "@/app/compontes/header"
 import Footer from "@/app/compontes/footer";
 import "locomotive-scroll/dist/locomotive-scroll.css";
-import { useEffect } from "react";
-import AOS from 'aos';
-import "aos/dist/aos.css";
+// import { useEffect } from "react";
+// import AOS from 'aos';
+// import "aos/dist/aos.css";
 export default function Home() {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const newsData = [
-        {
-            image: "/assets/Rectangle 14.png",
-            alt: "News 1",
-            date: "December 04, 2024",
-            text: "Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team"
-        },
-        {
-            image: "/assets/Rectangle 15.png",
-            alt: "News 2",
-            date: "December 02, 2024",
-            text: "Crafting the Design for Beyond the Screen Digital Products Marketplace"
-        },
-        {
-            image: "/assets/Rectangle 16.png",
-            alt: "News 3",
-            date: "November 30, 2024",
-            text: "Script Studio Technologies Claims Site of the Week at Awwwards!"
-        }
-    ];
-         useEffect(() => {
-                        AOS.init();
-                        AOS.refresh();
-                      }, []);
-
+    
     return (
         <>
             <Header />
@@ -79,10 +53,10 @@ export default function Home() {
                         </h1>
                         <div className="col-lg-8">
                             <p className="mt-4   font-semibold  lg:text-[18px] sm:text-[16px] text-[12px]">
-                            Make an impression in every inbox with our tailored email design services. We create visually captivating and strategically designed emails that connect with your audience and reflect your brand's identity.
+                            Make an impression in every inbox with our tailored email design services. We create visually captivating and strategically designed emails that connect with your audience and reflect your brand&apos;s identity.
                             </p>
                             <p className="mt-4   lg:text-[15px] sm:text-[14px] text-[12px]">
-                            Make an impression in every inbox with our tailored email design services. We create visually captivating and strategically designed emails that connect with your audience and reflect your brand's identity.
+                            Make an impression in every inbox with our tailored email design services. We create visually captivating and strategically designed emails that connect with your audience and reflect your brand&apos;s identity.
                             </p>
 
                         </div>
@@ -94,7 +68,7 @@ export default function Home() {
 
 
                             <div className="flex">
-                                <button className='underline flex'>Let’s Talk<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                <button className='underline flex'>Let&apos;s Talk<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                             </div>
 
 
@@ -159,7 +133,7 @@ export default function Home() {
 
                                 <div className="col-lg-10">
                                     <p className="mt-4 lg:text-[20px] sm:text-[18px] text-[14px]">
-                                    Transform your brand’s identity across all platforms with custom motion graphics. Tailored specifically for your brand, our graphics adapt seamlessly across mediums—from websites to social media, ensuring consistency and impact everywhere.
+                                    Transform your brand&apos;s identity across all platforms with custom motion graphics. Tailored specifically for your brand, our graphics adapt seamlessly across mediums—from websites to social media, ensuring consistency and impact everywhere.
 
                                     </p>
                                     
@@ -196,11 +170,11 @@ export default function Home() {
                                 Animated Videos
                                 </h1>
                                 <p className="mt-4 lg:text-[20px] sm:text-[18px] text-[14px]">
-                                Enhance your storytelling with animated videos that amplify your message. Whether it's for explainer videos or brand stories, we create animations that not only inform but also entertain, keeping your audience engaged throughout the funnel.
+                                Enhance your storytelling with animated videos that amplify your message. Whether it&apos;s for explainer videos or brand stories, we create animations that not only inform but also entertain, keeping your audience engaged throughout the funnel.
                                 </p>
                                 
                                 <div className="flex">
-                                    <button className='underline flex'>Let's Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                    <button className='underline flex'>Let&apos;s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                                 </div>
                             </div>
                         </div>
@@ -219,7 +193,7 @@ export default function Home() {
                                                                    </div>
                                                                    <div className="col-lg-3">
                                                                      <p className="font-[500] text-[50px] leading-[45px]">Latest News
-                                                                       & Press</p>
+                                                                     &amp; Press</p>
                                                                    </div>
                                                                  </div>
                                                                </section>

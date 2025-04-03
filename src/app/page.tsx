@@ -3,8 +3,8 @@
 
 import Image from "next/image";
 import Header from "@/app/compontes/header";
-import { useEffect, useRef } from "react";
-import LocomotiveScroll from "locomotive-scroll";
+import { useEffect } from "react";
+
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import Expert from "../app/compontes/experties"
 import AOS from 'aos';
@@ -54,7 +54,7 @@ export default function Home() {
                   <div className="col-md-12 d-flex align-items-center mb-4 mt-0">
                     <Image src="/assets/Group 17584.png" alt="..." width={1080} height={1080} className="rounded-[10px] p-0 m-0 w-[70px]" />
                     <p className="ms-3 mb-0 lg:text-[20px] text-[16px] lg:leading-[30x] leading-[20px]">
-                      let’s change this <br /> world with design
+                      let&apos;s change this <br /> world with design
                     </p>
                   </div>
                   <div className="col-lg-4 items-center justify-center pt-4">
@@ -195,7 +195,7 @@ export default function Home() {
                  <h3 className="font-bold">UI/UX Design</h3>
                </div>
                <div className="col-lg-6 lg:text-[1vw] text-[3vw]">
-                 <p> We offer our clients the right service they need at Script Studio as we believe a product is not just a solution for a problem but also requires a compelling experience. Our offer of user-friendly interface centers around giving visually stimulating designs while enabling practical performance fostering users’ ability to enjoy each use experience. By gaining a deeper comprehension of your audience in addition to incorporating your business objectives into the designs, we build experiences that enhance user retention and overall triumphs in business metrics</p>
+                 <p> We offer our clients the right service they need at Script Studio as we believe a product is not just a solution for a problem but also requires a compelling experience. Our offer of user-friendly interface centers around giving visually stimulating designs while enabling practical performance fostering users&apos; ability to enjoy each use experience. By gaining a deeper comprehension of your audience in addition to incorporating your business objectives into the designs, we build experiences that enhance user retention and overall triumphs in business metrics</p>
                </div>
                <div className="col-lg-1 ">
                  <Image className="img-responsive lg:w-[80px] w-[50px]" src="/assets/Border1.png" alt="logo" width={1080} height={1080} />
@@ -214,11 +214,11 @@ export default function Home() {
                 <h3 className="">03.</h3>
               </div>
               <div className="col-md-4 ">
-                <h3 className="font-bold">Website Design &
+                <h3 className="font-bold">Website Design &amp;
                   Development</h3>
               </div>
               <div className="col-lg-6 ">
-                <p className="lg:text-[1vw] text-[3vw]"> Our design and development team enables us to build some of the most beautiful and fully functional websites. Our approach revolves around prioritizing any engagement level while boosting the site's overall UI, from using responsive designs to aiding users with self-navigation. Our service covers optimization of websites to make them search-matching, speedy, and able to perform excellently in the market.</p>
+                <p className="lg:text-[1vw] text-[3vw]"> Our design and development team enables us to build some of the most beautiful and fully functional websites. Our approach revolves around prioritizing any engagement level while boosting the site&apos;s overall UI, from using responsive designs to aiding users with self-navigation. Our service covers optimization of websites to make them search-matching, speedy, and able to perform excellently in the market.</p>
               </div>
               <div className="col-lg-1 ">
                 <Image className="img-responsive lg:w-[80px] w-[50px]" src="/assets/Border 3.png" alt="logo" width={1080} height={1080} />
@@ -286,7 +286,7 @@ export default function Home() {
                 <h3 className="font-bold">Game Development </h3>
               </div>
               <div className="col-lg-6 ">
-                <p className="lg:text-[1vw] text-[3vw]" >At Script Studio, we create immersive and engaging gaming experiences that captivate players. From concept to launch, we specialize in building custom games that combine innovative design, cutting-edge technology, and seamless gameplay. Whether it's mobile, web, or console games, we develop interactive worlds that bring your ideas to life. Our team focuses on delivering intuitive controls, stunning visuals, and compelling narratives, ensuring that every game is both entertaining and technically flawless. We help transform your gaming vision into reality, creating memorable experiences that resonate with players and keep them coming back for more.</p>
+                <p className="lg:text-[1vw] text-[3vw]" >At Script Studio, we create immersive and engaging gaming experiences that captivate players. From concept to launch, we specialize in building custom games that combine innovative design, cutting-edge technology, and seamless gameplay. Whether it&apos;s mobile, web, or console games, we develop interactive worlds that bring your ideas to life. Our team focuses on delivering intuitive controls, stunning visuals, and compelling narratives, ensuring that every game is both entertaining and technically flawless. We help transform your gaming vision into reality, creating memorable experiences that resonate with players and keep them coming back for more.</p>
               </div>
               <div className="col-lg-1 ">
                 <Image className="img-responsive lg:w-[80px] w-[50px] " src="/assets/Border2.png" alt="logo" width={1080} height={1080} />
@@ -308,7 +308,7 @@ export default function Home() {
                 <h3 className="font-bold">Blockchain Development </h3>
               </div>
               <div className="col-lg-6 ">
-                <p className="lg:text-[1vw] text-[3vw]">At Script Studio, we create immersive and engaging gaming experiences that captivate players. From concept to launch, we specialize in building custom games that combine innovative design, cutting-edge technology, and seamless gameplay. Whether it's mobile, web, or console games, we develop interactive worlds that bring your ideas to life. Our team focuses on delivering intuitive controls, stunning visuals, and compelling narratives, ensuring that every game is both entertaining and technically flawless. We help transform your gaming vision into reality, creating memorable experiences that resonate with players and keep them coming back for more.</p>
+                <p className="lg:text-[1vw] text-[3vw]">At Script Studio, we create immersive and engaging gaming experiences that captivate players. From concept to launch, we specialize in building custom games that combine innovative design, cutting-edge technology, and seamless gameplay. Whether it&apos;s mobile, web, or console games, we develop interactive worlds that bring your ideas to life. Our team focuses on delivering intuitive controls, stunning visuals, and compelling narratives, ensuring that every game is both entertaining and technically flawless. We help transform your gaming vision into reality, creating memorable experiences that resonate with players and keep them coming back for more.</p>
               </div>
               <div className="col-lg-1 ">
                 <Image className="img-responsive lg:w-[80px] w-[50px] " src="/assets/Border2.png" alt="logo" width={1080} height={1080} />
@@ -334,7 +334,7 @@ export default function Home() {
                   <Image className="img-responsive lg:w-[100px]  w-[60px]" src="/assets/downarrow.png" alt="logo" width={500} height={500} />
                  </div>
                 <div className="col-lg-7 pt-4 text-[#C0C0C0]">
-                 <p>Here, you'll find a curated collection of our finest work, showcasing our expertise in web design, branding, animation, and more. Each project is a testament to our passion for creativity and innovation. Take a glimpse into what we do best and discover how we can transform your ideas into compelling digital experiences. Let our portfolio inspire your next project</p>
+                 <p>Here, you&apos;ll find a curated collection of our finest work, showcasing our expertise in web design, branding, animation, and more. Each project is a testament to our passion for creativity and innovation. Take a glimpse into what we do best and discover how we can transform your ideas into compelling digital experiences. Let our portfolio inspire your next project</p>
                 </div>
 
               </div>
@@ -479,58 +479,7 @@ export default function Home() {
 
 
       <hr className=" border border-1.9 " data-aos="zoom-in" ></hr>
-      {/* <section className="overflow-hidden lg:px-[80px] px-[20px] pt-1"  data-aos="zoom-in">
-        <div className="container-fluid ">
-          <div className=" col-lg-12 ">
-            <p className="text-[14px]">Blog</p>
-          </div>
-          <div className="col-lg-4">
-            <p className="font-[500] lg:text-[50px] lg:leading-[45px] text-[30px] leading-[35px]">Latest News
-              & Press</p>
-          </div>
-        </div>
-      </section>
-      <section className="overflow-hidden lg:px-[80px] px-[20px] pt-1 " data-aos="zoom-in" >
-        <div className="container-fluid ">
-          <div className="row mb-4">
-            <div className="col-lg-4">
-              <Image
-                src="/assets/Rectangle 14.png"
-                alt="..."
-                width={1080}
-                height={1080}
-                className="rounded-[10px]  w-full "
-              />
-              <p className="mt-4 lg:text-[20px] text-[16px] lg:h-[80px] text-center">Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team</p>
-              <p className="mt-2 lg:text-[20px] text-[16px] text-[#D1D1D1] text-center">DECEMBER 04, 2024</p>
-            </div>
-            <div className="col-lg-4">
-              <Image
-                src="/assets/Rectangle 15.png"
-                alt="..."
-                width={1080}
-                height={1080}
-                className="rounded-[10px] w-full "
-              />
-              <p className="mt-4 lg:text-[20px] text-[16px]  text-center lg:h-[80px]">Crafting the Design for Beyond the Screen Digital Products Marketplace</p>
-              <p className="mt-2 lg:text-[20px] text-[16px] text-center text-[#D1D1D1]">DECEMBER 04, 2024</p>
-
-            </div>
-            <div className="col-lg-4">
-              <Image
-                src="/assets/Rectangle 16.png"
-                alt="..."
-                width={1080}
-                height={1080}
-                className="rounded-[10px]  w-full "
-              />
-              <p className="mt-4 lg:text-[20px] text-[16px] text-center  lg:h-[80px]">Script Studio Technologies Claims Site of the Week at Awwwards!</p>
-              <p className="mt-2 lg:text-[20px] text-[16px] text-center text-[#D1D1D1]">NOVEMBER 30, 2024</p>
-            </div>
-          </div>
-
-        </div>
-      </section> */}
+    
       <section className="overflow-hidden lg:px-[80px] px-[20px] pt-1 pb-5" data-aos="zoom-in">
          <div className="container-fluid p-0 m-0">
           <div className=" col-lg-12 ">
@@ -538,7 +487,7 @@ export default function Home() {
            </div>
            <div className="col-lg-3">
              <p className="font-[500] text-[50px] leading-[45px]">Latest News
-               & Press</p>
+             &amp; Press</p>
            </div>
          </div>
        </section>

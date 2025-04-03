@@ -1,8 +1,7 @@
 
 'use client';
 
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+
 import Header from "@/app/compontes/header"
 import Image from 'next/image';
 import Footer from "@/app/compontes/footer";

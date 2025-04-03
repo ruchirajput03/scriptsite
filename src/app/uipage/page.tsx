@@ -1,8 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+
+
 import Header from "@/app/compontes/header"
 import Footer from "@/app/compontes/footer";
 import "locomotive-scroll/dist/locomotive-scroll.css";
@@ -10,27 +10,7 @@ import { useEffect } from "react";
 import AOS from 'aos';
 import "aos/dist/aos.css";
 export default function Home() {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const newsData = [
-        {
-            image: "/assets/Rectangle 14.png",
-            alt: "News 1",
-            date: "December 04, 2024",
-            text: "Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team"
-        },
-        {
-            image: "/assets/Rectangle 15.png",
-            alt: "News 2",
-            date: "December 02, 2024",
-            text: "Crafting the Design for Beyond the Screen Digital Products Marketplace"
-        },
-        {
-            image: "/assets/Rectangle 16.png",
-            alt: "News 3",
-            date: "November 30, 2024",
-            text: "Script Studio Technologies Claims Site of the Week at Awwwards!"
-        }
-    ];
+ 
      useEffect(() => {
                     AOS.init();
                     AOS.refresh();
@@ -78,7 +58,7 @@ export default function Home() {
                         </h1>
                         <div className="col-lg-6">
                             <p className="mt-4   text-[#A5A5A5]  lg:text-[18px] sm:text-[18px] text-[16px]">
-                                At <span className='text-white font-semibold '>Script Studio,</span> we bring our clients' visions to life by combining <span className='text-white font-semibold '>design expertise,</span> cutting-edge technology, and impactful <span className='text-white font-semibold '>marketing</span> strategies.
+                                At <span className='text-white font-semibold '>Script Studio,</span> we bring our clients&apos; visions to life by combining <span className='text-white font-semibold '>design expertise,</span> cutting-edge technology, and impactful <span className='text-white font-semibold '>marketing</span> strategies.
                             </p>
 
                         </div>
@@ -90,7 +70,7 @@ export default function Home() {
 
 
                             <div className="flex">
-                                <button className='underline lg:text-[18px] sm:text-[18px] text-[16px] flex'>Let’s Talk<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                <button className='underline lg:text-[18px] sm:text-[18px] text-[16px] flex'>Let&apos;s Talk<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                             </div>
 
 

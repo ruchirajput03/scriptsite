@@ -1,36 +1,16 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+
+
 import Header from "@/app/compontes/header"
 import Footer from "@/app/compontes/footer";
-import "locomotive-scroll/dist/locomotive-scroll.css";
-import { useEffect } from "react";
-import AOS from 'aos';
-import "aos/dist/aos.css";
+// import "locomotive-scroll/dist/locomotive-scroll.css";
+// import { useEffect } from "react";
+// import AOS from 'aos';
+// import "aos/dist/aos.css";
 export default function Home() {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const newsData = [
-        {
-            image: "/assets/Rectangle 14.png",
-            alt: "News 1",
-            date: "December 04, 2024",
-            text: "Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team"
-        },
-        {
-            image: "/assets/Rectangle 15.png",
-            alt: "News 2",
-            date: "December 02, 2024",
-            text: "Crafting the Design for Beyond the Screen Digital Products Marketplace"
-        },
-        {
-            image: "/assets/Rectangle 16.png",
-            alt: "News 3",
-            date: "November 30, 2024",
-            text: "Script Studio Technologies Claims Site of the Week at Awwwards!"
-        }
-    ];
+   
 
     return (
         <>
@@ -183,7 +163,7 @@ export default function Home() {
 
                                     </ul>
 
-                                    <p className="mt-4  g:text-[18px] sm:text-[16px] text-[14px]">Let’s build a world that keeps players coming back for more.</p>
+                                    <p className="mt-4  g:text-[18px] sm:text-[16px] text-[14px]">Let&apos;s build a world that keeps players coming back for more.</p>
                                 </div>
                                 <div className="flex mt-4">
                                     <button className='underline g:text-[18px] sm:text-[16px] text-[14px] flex'>Talk to a Script studio expert today<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
@@ -218,10 +198,10 @@ export default function Home() {
                                 <p className="mt-4 g:text-[18px] sm:text-[16px] text-[14px] font-bold">
                                 Your Console, Your Game, Our Expertise
                                 </p>
-                                <p className="mt-4 lg:g:text-[18px] sm:text-[16px] text-[14px] text-[14px]">
+                                <p className="mt-4 lg:g:text-[18px] sm:text-[16px] text-[14px] ">
                                 Crafting the perfect console game requires a mix of creativity, technical know-how, and an understanding of player expectations. At Script Studio, we specialize in creating games for Xbox, PlayStation, and Nintendo. From game art to LiveOps, we handle every step to deliver a console game that players will love.
                                 </p>
-                                <ul className="mt-2 lg:g:text-[18px] sm:text-[16px] text-[14px] text-[14px] list-disc font-bold  list-outside">
+                                <ul className="mt-2 lg:g:text-[18px] sm:text-[16px] text-[14px]  list-disc font-bold  list-outside">
 
                                     <li className='mt-2'>Tailored Games for Xbox, PlayStation, & Nintendo</li>
                                     <li className='mt-2'>Complete Development Process</li>
@@ -233,7 +213,7 @@ export default function Home() {
                                 Let’s build a game that defines the next generation of console gaming.
                                 </p>
                                 <div className="flex lg:pt-[20px] pt-[10px]">
-                                    <button className='underline flex'>Let's Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                    <button className='underline flex'>Let&apos;s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                                 </div>
                             </div>
                         </div>
@@ -259,7 +239,7 @@ export default function Home() {
                                     Where Imagination Meets Reality
                                     </p>
                                     <p className="mt-4 lg:text-[18px] sm:text-[16px] text-[14px]">
-                                    With Unity, the possibilities are endless. Our team brings your 2D & 3D games to life, using Unity’s powerful engine to deliver stunning visuals and engaging mechanics. We also dive into the realm of VR/AR gaming, taking your players on journeys like never before.
+                                    With Unity, the possibilities are endless. Our team brings your 2D & 3D games to life, using Unity&apos;s powerful engine to deliver stunning visuals and engaging mechanics. We also dive into the realm of VR/AR gaming, taking your players on journeys like never before.
                                     </p>
                                     <ul className="mt-2 lg:text-[16px] text-[14px] list-disc font-bold list-outside">
 
@@ -270,7 +250,7 @@ export default function Home() {
 
                                     </ul>
                                     <p className="mt-4 text-[16px]">
-                                    Let’s build an experience that pushes the limits of what’s possible.
+                                    Let&apos;s build an experience that pushes the limits of what&apos;s possible.
                                     </p>
 
 
@@ -309,7 +289,7 @@ export default function Home() {
                                 Immersive Worlds, Unmatched Visuals
                                 </p>
                                 <p className="mt-4 g:text-[18px] sm:text-[16px] text-[14px]">
-                                For breathtaking visuals and truly immersive experiences, the Unreal Engine is a game-changer. Whether it’s creating an epic VR adventure or developing a visually stunning MR game, our team harnesses Unreal’s power to deliver state-of-the-art gameplay that will amaze your players.
+                                For breathtaking visuals and truly immersive experiences, the Unreal Engine is a game-changer. Whether it&apos;s creating an epic VR adventure or developing a visually stunning MR game, our team harnesses Unreal&apos;s power to deliver state-of-the-art gameplay that will amaze your players.
                                 </p>
                                 <ul className="mt-2 g:text-[18px] sm:text-[16px] text-[14px] list-disc  font-bold list-outside">
 
@@ -319,10 +299,10 @@ export default function Home() {
 
 
                                 </ul>
-                                <p className='mt-4 g:text-[18px] sm:text-[16px] text-[14px]'>Let’s bring your most ambitious ideas to life with Unreal.</p>
+                                <p className='mt-4 g:text-[18px] sm:text-[16px] text-[14px]'>Let&apos;s bring your most ambitious ideas to life with Unreal.</p>
 
                                 <div className="flex">
-                                    <button className='underline g:text-[18px] sm:text-[16px] text-[14px] flex'>Let's Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                    <button className='underline g:text-[18px] sm:text-[16px] text-[14px] flex'>Let&apos;s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                                 </div>
                             </div>
                         </div>
@@ -359,7 +339,7 @@ export default function Home() {
 
 
                                     </ul>
-                                    <p className="mt-4 g:text-[18px] sm:text-[16px] text-[14px] ">Let’s revolutionize the gaming experience with<span className='font-semibold'> NFT-powered games.</span> </p>
+                                    <p className="mt-4 g:text-[18px] sm:text-[16px] text-[14px] ">Let&apos;s revolutionize the gaming experience with<span className='font-semibold'> NFT-powered games.</span> </p>
 
 
                                 </div>
@@ -390,7 +370,7 @@ export default function Home() {
                                             </div>
                                             <div className="col-lg-3">
                                               <p className="font-[500] text-[50px] leading-[45px]">Latest News
-                                                & Press</p>
+                                                &amp; Press</p>
                                             </div>
                                           </div>
                                         </section>

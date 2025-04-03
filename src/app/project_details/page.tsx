@@ -38,7 +38,7 @@ export default function Page() {
                         </div>
                         <div className="col-lg-9 lg:ml-5 ">
 
-                            <p className="lg:text-[1.8vw] text-[3vw] lg:leading-[2vw] lg:pt-0 pt-4 leading-[3vw]">Orbital is a comprehensive platform designed to manage and configure Discord servers. It’s a robust tool that empowers you to efficiently manage, engage, and grow your server in ways you never imagined.</p>
+                            <p className="lg:text-[1.8vw] text-[3vw] lg:leading-[2vw] lg:pt-0 pt-4 leading-[3vw]">Orbital is a comprehensive platform designed to manage and configure Discord servers. It&apos;s a robust tool that empowers you to efficiently manage, engage, and grow your server in ways you never imagined.</p>
                         </div>
                     </div>
                 </div>
@@ -327,7 +327,7 @@ export default function Page() {
                     </div>
                     <div className="col-lg-8 mt-10  ">
                         <p className='text-[25px] leading-[30px]'>-TESTIMONIALS FROM <br />OUR TOP ADVOCATES</p>
-                        <p className='text-[20px]  leading-[30px] mt-10'>Script Studio efforts led to twice as many new customers and helped the company grow. Their smooth teamwork and quick responses made for a great partnership. By really understanding the client's goals and the market, they used their technical skills to improve results effectively.</p>
+                        <p className='text-[20px]  leading-[30px] mt-10'>Script Studio efforts led to twice as many new customers and helped the company grow. Their smooth teamwork and quick responses made for a great partnership. By really understanding the client&apos;s goals and the market, they used their technical skills to improve results effectively.</p>
                         <div className="mt-4">-Barbara Valdez | CEO Synergy</div>
                         <hr className='mt-10 border-2'></hr>
                     </div>

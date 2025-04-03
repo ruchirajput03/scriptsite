@@ -37,9 +37,9 @@ export default function App() {
                         <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-10'>In the dynamic world of web design and digital innovation, talent is the driving force that propels creativity and sets the stage for groundbreaking projects. At Rethink, we are embarking on an exciting quest to discover and welcome exceptional talent into our team. If you are passionate about pushing the boundaries of digital design, fueled by innovation, and ready to make your mark in the industry, Rethink invites you to be part of our creative journey.</p>
                         <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-10'>Rethink is more than a web studio; we are a community of visionaries, designers, developers, and creatives who come together to transform ideas into extraordinary digital experiences. Our commitment to excellence, innovation, and collaboration sets us apart in the ever-evolving landscape of web design.</p>
                         <h2 className=' mt-10'>What We Value</h2>
-                        <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-10'><span className='font-bold lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw]'>1.Innovation:</span> At Rethink, we thrive on innovation. We believe in challenging the status quo and pushing the boundaries of what is possible. If you have a passion for exploring new technologies, trends, and design methodologies, you'll find a home in our dynamic environment.</p>
-                        <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-10'><span className='font-bold lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw]'>2.Collaboration:</span> Collaboration is at the heart of everything we do. We understand that the most exceptional projects emerge from the collective genius of a diverse team. If you value teamwork, open communication, and the exchange of ideas, you'll fit right into our collaborative culture.</p>
-                        <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-10'><span className='font-bold lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw]'>3.Continuous Learning:</span>In the fast-paced world of digital design, staying ahead requires a commitment to continuous learning. Whether you're a seasoned professional or an emerging talent, Rethink provides opportunities for growth, skill enhancement, and staying at the forefront of industry trends.</p>
+                        <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-10'><span className='font-bold lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw]'>1.Innovation:</span> At Rethink, we thrive on innovation. We believe in challenging the status quo and pushing the boundaries of what is possible. If you have a passion for exploring new technologies, trends, and design methodologies, you&apos;ll find a home in our dynamic environment.</p>
+                        <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-10'><span className='font-bold lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw]'>2.Collaboration:</span> Collaboration is at the heart of everything we do. We understand that the most exceptional projects emerge from the collective genius of a diverse team. If you value teamwork, open communication, and the exchange of ideas, you&apos;ll fit right into our collaborative culture.</p>
+                        <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-10'><span className='font-bold lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw]'>3.Continuous Learning:</span>In the fast-paced world of digital design, staying ahead requires a commitment to continuous learning. Whether you&apos;re a seasoned professional or an emerging talent, Rethink provides opportunities for growth, skill enhancement, and staying at the forefront of industry trends.</p>
                     </div>
                 </div>
 
@@ -58,7 +58,7 @@ export default function App() {
             <li className='ml-10'><span className="font-semibold lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw]"> Digital Marketing Specialist:</span> <span className="text-[#BEBEBE] lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] ">Drive online visibility and engagement through strategic  digital marketing campaigns.</span></li></div>
             <div className="flex mb-4">
             <li className='ml-10'><span className="font-semibold lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] ">Project Managers:</span> <span className="text-[#BEBEBE] lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw]">Oversee the end-to-end execution of projects,ensuring delhivery on time and within scope.</span></li></div>
-            <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-8'>If you're passionate about making a difference in the digital landscape, we want to hear from you!</p>
+            <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-8'>If you&apos;re passionate about making a difference in the digital landscape, we want to hear from you!</p>
                 </div>
                 </div>
 
@@ -68,7 +68,7 @@ export default function App() {
             <div className="justify-center flex">
             <div className="col-lg-8 ">
             <h2 className=' '>How to Apply</h2>
-            <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-8'>Visit our careers page to explore open positions and submit your application. Tell us about your passion, showcase your portfolio, and let us know why you're the exceptional talent we've been searching for. As we embark on this quest for exceptional talent, we invite you to join the Script Studio experience. Be part of a team that values creativity, embraces innovation, and thrives on collective success. Your journey with Script Studio awaits. Apply now and let's create extraordinary digital experiences together!</p>
+            <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-8'>Visit our careers page to explore open positions and submit your application. Tell us about your passion, showcase your portfolio, and let us know why you&apos;re the exceptional talent we&apos;ve been searching for. As we embark on this quest for exceptional talent, we invite you to join the Script Studio experience. Be part of a team that values creativity, embraces innovation, and thrives on collective success. Your journey with Script Studio awaits. Apply now and let&apos;s create extraordinary digital experiences together!</p>
             <div className="flex gap-1">
             <p className='lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] mt-8 m-0 p-0'>Are you ready to Script Studio your career?</p>
             <button type='button' className='underline lg:text-[1vw] text-[3.4vw] lg:leading-[1.5vw] leading-[4.5vw] decoration-nodashed font-bold'>Apply today!</button></div>
@@ -82,7 +82,7 @@ export default function App() {
                       </div>
                       <div className="col-lg-3">
                         <p className="font-[500] lg:text-[4vw] text-[6vw] lg:leading-[4.5vw]  ">Latest News
-                          & Press</p>
+                          &amp; Press</p>
                       </div>
                     </div>
                   </section>

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+
 import Header from "@/app/compontes/header"
 import Footer from "@/app/compontes/footer"
 import Form from 'next/form'
@@ -65,7 +65,7 @@ export default function Home() {
 
                             <h2 className="mt-4 mb-4">Perks of Working at ScriptStudio:</h2>
                            <div className="flex mb-4">
-                            <li><span className="font-bold lg:text-[17px] sm:text-[17px] text-[16px] "> Freedom and Creativity:</span> <span className="text-[#BEBEBE] lg:text-[16px] sm:text-[16px] text-[15px]">You'll have the autonomy to drive your own design projects and contribute creatively to campaigns.</span></li></div>
+                            <li><span className="font-bold lg:text-[17px] sm:text-[17px] text-[16px] "> Freedom and Creativity:</span> <span className="text-[#BEBEBE] lg:text-[16px] sm:text-[16px] text-[15px]">You&apos;ll have the autonomy to drive your own design projects and contribute creatively to campaigns.</span></li></div>
 
                                
                            <div className="flex mb-4">

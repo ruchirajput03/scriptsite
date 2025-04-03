@@ -1,8 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+
+
 import Header from "@/app/compontes/header"
 import Footer from "@/app/compontes/footer";
 import "locomotive-scroll/dist/locomotive-scroll.css";
@@ -10,27 +10,8 @@ import { useEffect } from "react";
 import AOS from 'aos';
 import "aos/dist/aos.css";
 export default function Home() {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const newsData = [
-        {
-            image: "/assets/Rectangle 14.png",
-            alt: "News 1",
-            date: "December 04, 2024",
-            text: "Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team"
-        },
-        {
-            image: "/assets/Rectangle 15.png",
-            alt: "News 2",
-            date: "December 02, 2024",
-            text: "Crafting the Design for Beyond the Screen Digital Products Marketplace"
-        },
-        {
-            image: "/assets/Rectangle 16.png",
-            alt: "News 3",
-            date: "November 30, 2024",
-            text: "Script Studio Technologies Claims Site of the Week at Awwwards!"
-        }
-    ];
+   
+   
      useEffect(() => {
                     AOS.init();
                     AOS.refresh();
@@ -51,7 +32,7 @@ export default function Home() {
                 </div>
                 <div >
                     <p className="text-gray-400 col-lg-5 lg:pt-8 mt-0 lg:text-[18px] sm:text-[16px] text-[14px] lg:leading-[30px] sm:leading-[25px]">
-                        Transform your business operations, customer experiences, and innovation with cutting-edge AI solutions tailored to your unique needs. Whether you’re exploring generative AI, building intelligent machine learning models, or enhancing processes with computer vision, Script Studio is here to elevate your business to new heights. Let’s drive your success with<span className='text-white font-semibold'>smart, scalable, and responsive AI services.</span>
+                        Transform your business operations, customer experiences, and innovation with cutting-edge AI solutions tailored to your unique needs. Whether you&apos;re exploring generative AI, building intelligent machine learning models, or enhancing processes with computer vision, Script Studio is here to elevate your business to new heights. Let&apos;s drive your success with<span className='text-white font-semibold'>smart, scalable, and responsive AI services.</span>
                     </p>
                     <div className='pt-4'>
                         <button className=" lg:px-3 lg:py-2 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
@@ -94,7 +75,7 @@ export default function Home() {
 
 
                             <div className="flex">
-                                <button className='underline flex'>Let’s Talk<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                <button className='underline flex'>Let&apos;s Talk<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                             </div>
 
 
@@ -146,7 +127,7 @@ export default function Home() {
 
                                     </ul>
                                     <p className="mt-4  lg:text-[18px] sm:text-[16px] text-[14px] ">
-                                        Let’s discuss how AI can be a game-changer for your business.
+                                        Let&apos;s discuss how AI can be a game-changer for your business.
                                     </p>
 
                                 </div>
@@ -184,7 +165,7 @@ export default function Home() {
 
                                     </ul>
 
-                                    <p className="mt-4  lg:text-[18px] sm:text-[16px] text-[14px] ">We are your partners in navigating today’s rapidly evolving digital landscape with AI.</p>
+                                    <p className="mt-4  lg:text-[18px] sm:text-[16px] text-[14px] ">We are your partners in navigating today&apos;s rapidly evolving digital landscape with AI.</p>
                                 </div>
                                 <div className="flex mt-4">
                                     <button className='underline flex'>Talk to a Script studio expert today<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
@@ -228,10 +209,10 @@ export default function Home() {
 
                                 </ul>
                                 <p className="mt-4 lg:text-[18px] sm:text-[16px] text-[14px] ">
-                                Let’s create something unique together with Generative AI.
+                                Let&apos;s create something unique together with Generative AI.
                                 </p>
                                 <div className="flex lg:pt-[20px] pt-[10px]">
-                                    <button className='underline flex'>Let's Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                    <button className='underline flex'>Let&apos;s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                                 </div>
                             </div>
                         </div>
@@ -320,7 +301,7 @@ export default function Home() {
                                 <p className='mt-4 lg:text-[18px] sm:text-[16px] text-[14px] '>Enhance your business operations and gain actionable insights through advanced computer vision.</p>
 
                                 <div className="flex">
-                                    <button className='underline flex'>Let's Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                    <button className='underline flex'>Let&apos;s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                                 </div>
                             </div>
                         </div>
@@ -343,7 +324,7 @@ export default function Home() {
 
                                 <div className="col-lg-10">
                                     <p className="mt-4 text-[16px] font-bold">
-                                    AI That’s Fair, Accountable, and Transparent
+                                    AI That&apos;s Fair, Accountable, and Transparent
                                     </p>
                                     <p className="mt-4 lg:text-[18px] sm:text-[16px] text-[14px]  ">
                                     At Script Studio, we prioritize Responsible AI to ensure your solutions are built on ethical, transparent practices. We ensure your AI is:
@@ -406,7 +387,7 @@ export default function Home() {
 
                                     </ul>
                                 <div className="flex">
-                                    <button className='underline flex'>Let's Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                    <button className='underline flex'>Let&apos;s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                                 </div>
                             </div>
                         </div>
@@ -492,7 +473,7 @@ export default function Home() {
 
                                     </ul>
                                 <div className="flex">
-                                    <button className='underline flex'>Let's Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                    <button className='underline flex'>Let&apos;s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                                 </div>
                             </div>
                         </div>

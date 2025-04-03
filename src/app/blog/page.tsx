@@ -149,7 +149,7 @@ export default function App() {
         <div className="flex flex-wrap">
           <div className="col-lg-6   mb-4">
             <div className="col-lg-10  lg:text-[1vw] sm:text-[2.5vw] text-[3vw] mt-8 mb-4 ">
-              Let's turn your vision into reality! Whether you need a stunning website, eye-catching graphics, or engaging animations, our creative team is here to bring your ideas to life. Contact us today, and let's start a conversation about your next project.
+              Let&apos;s turn your vision into reality! Whether you need a stunning website, eye-catching graphics, or engaging animations, our creative team is here to bring your ideas to life. Contact us today, and let&apos;s start a conversation about your next project.
             </div>
           </div>
           <div className="col-lg-6 mb-4 lg:mt-8 ">

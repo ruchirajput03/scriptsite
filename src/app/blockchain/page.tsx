@@ -1,8 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+
 import Header from "@/app/compontes/header"
 import Footer from "@/app/compontes/footer";
 import "locomotive-scroll/dist/locomotive-scroll.css";
@@ -10,27 +9,7 @@ import { useEffect } from "react";
 import AOS from 'aos';
 import "aos/dist/aos.css";
 export default function Home() {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const newsData = [
-        {
-            image: "/assets/Rectangle 14.png",
-            alt: "News 1",
-            date: "December 04, 2024",
-            text: "Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team"
-        },
-        {
-            image: "/assets/Rectangle 15.png",
-            alt: "News 2",
-            date: "December 02, 2024",
-            text: "Crafting the Design for Beyond the Screen Digital Products Marketplace"
-        },
-        {
-            image: "/assets/Rectangle 16.png",
-            alt: "News 3",
-            date: "November 30, 2024",
-            text: "Script Studio Technologies Claims Site of the Week at Awwwards!"
-        }
-    ];
+    
     useEffect(() => {
                 AOS.init();
                 AOS.refresh();
@@ -50,7 +29,7 @@ export default function Home() {
                 </div>
                 <div >
                     <p className="text-gray-400 col-lg-5 lg:mt-8 mt-0 lg:text-[18px] sm:text-[15px] text-[14px] lg:leading-[30px] sm:leading-[35px]">
-                        At <span className='text-white font-semibold'>Script Studio,</span> we offer innovative blockchain development services designed to help businesses tap into the evolving Web3 ecosystem. Whether you're building <span className='text-white font-semibold'>decentralized applications (DApps),</span> launching <span className='text-white font-semibold'>DeFi platforms, </span>or exploring <span className='text-white font-semibold'>real-world asset (RWA)</span> tokenization, we’re here to bring blockchain innovation to life and create a transformative experience for your business.
+                        At <span className='text-white font-semibold'>Script Studio,</span> we offer innovative blockchain development services designed to help businesses tap into the evolving Web3 ecosystem. Whether you&apos;re building <span className='text-white font-semibold'>decentralized applications (DApps),</span> launching <span className='text-white font-semibold'>DeFi platforms, </span>or exploring <span className='text-white font-semibold'>real-world asset (RWA)</span> tokenization, we&apos;re here to bring blockchain innovation to life and create a transformative experience for your business.
                     </p>
                     <div className='pt-4'>
                         <button className=" lg:px-3 lg:py-2 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
@@ -95,7 +74,7 @@ export default function Home() {
 
 
                             <div className="flex">
-                                <button className='underline lg:text-[18px] sm:text-[18px] text-[16px] flex'>Let’s Talk<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                <button className='underline lg:text-[18px] sm:text-[18px] text-[16px] flex'>Let&apos;s Talk<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                             </div>
 
 
@@ -178,7 +157,7 @@ export default function Home() {
                                         <li className='mt-2'><strong className='font-semibold'>Art: </strong>Convert artwork into tokenized forms for fractional ownership and simplified trading.</li>
                                         <li className='mt-2'><strong className='font-semibold'>Shares & Stocks: </strong> Bring traditional assets into the digital world for easier trading and greater transparency.</li>
                                         <li className='mt-2'><strong className='font-semibold'>Loyalty Programs:  </strong> Implement blockchain-based loyalty programs that offer users tangible rewards.</li>
-                                        <li className='mt-2'><strong className='font-semibold'>Intellectual Property: </strong>Secure and manage intellectual property assets using blockchain's transparency and security features.</li>
+                                        <li className='mt-2'><strong className='font-semibold'>Intellectual Property: </strong>Secure and manage intellectual property assets using blockchain&apos;s transparency and security features.</li>
                                         <li className='mt-2'><strong className='font-semibold'>Precious Metals: </strong>Tokenize precious metals like gold and silver for easier trading and investment.</li>
 
                                     </ul>
@@ -229,7 +208,7 @@ export default function Home() {
                                     We utilize leading blockchain platforms such as Hyperledger, Corda, and Quorum, ensuring that the solutions we create are scalable, secure, and adaptable to enterprise needs.
                                 </p>
                                 <div className="flex">
-                                    <button className='underline lg:text-[18px] sm:text-[18px] text-[16px] flex'>Let's Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                    <button className='underline lg:text-[18px] sm:text-[18px] text-[16px] flex'>Let&apos;s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                                 </div>
                             </div>
                         </div>
@@ -256,7 +235,7 @@ export default function Home() {
                                     </p>
                                     <ul className="mt-2 lg:text-[18px] sm:text-[18px] text-[16px] list-disc  list-outside">
 
-                                        <li className='mt-2'><strong className='font-semibold'>State-of-the-art security: </strong> Providing robust encryption and protection for users' digital assets.</li>
+                                        <li className='mt-2'><strong className='font-semibold'>State-of-the-art security: </strong> Providing robust encryption and protection for users&apos; digital assets.</li>
                                         <li className='mt-2'><strong className='font-semibold'>Seamless integration: </strong>Ensuring users can easily trade, transfer, and manage their cryptocurrencies with a smooth and user-friendly experience.</li>
 
 
@@ -296,21 +275,21 @@ export default function Home() {
                             <div className="col-lg-10">
 
                                 <h1 className="lg:text-[40px] uppercase col-lg-7 sm:text-[35px] text-[26px] lg:leading-[45px]">
-                                    Blockchain Security Auditing & Testing
+                                    Blockchain Security Auditing &amp; Testing
                                 </h1>
                                 <p className="mt-4 lg:text-[18px] sm:text-[18px] text-[16px]">
                                     We provide blockchain security auditing and testing to ensure your platform is secure from vulnerabilities. Our services include:
                                 </p>
                                 <ul className="mt-2 lg:text-[18px] sm:text-[18px] text-[16px] list-disc  list-outside">
 
-                                    <li className='mt-2'><strong className='font-semibold'>Design and code evaluation:  </strong>Thorough assessment of your blockchain's architecture and code to identify security risks.</li>
-                                    <li className='mt-2'><strong className='font-semibold'>Security enhancements: </strong>mplementation of patches and improvements to protect your platform against cyber threats and attacks.</li>
+                                    <li className='mt-2'><strong className='font-semibold'>Design and code evaluation:  </strong>Thorough assessment of your blockchain&apos;s architecture and code to identify security risks.</li>
+                                    <li className='mt-2'><strong className='font-semibold'>Security enhancements: </strong>Implementation of patches and improvements to protect your platform against cyber threats and attacks.</li>
 
 
                                 </ul>
 
                                 <div className="flex">
-                                    <button className='underline lg:text-[18px] sm:text-[18px] text-[16px] flex'>Let's Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                    <button className='underline lg:text-[18px] sm:text-[18px] text-[16px] flex'>Let&apos;s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                                 </div>
                             </div>
                         </div>
@@ -395,7 +374,7 @@ export default function Home() {
                                 <div className="flex" data-aos="fade-left"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
-                                    <button className='underline lg:text-[18px] sm:text-[18px] text-[16px] flex'>Let's Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                                    <button className='underline lg:text-[18px] sm:text-[18px] text-[16px] flex'>Let&apos;s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                                 </div>
                             </div>
                         </div>
@@ -434,7 +413,7 @@ export default function Home() {
                                  </div>
                                  <div className="col-lg-3">
                                    <p className="font-[500] text-[50px] leading-[45px]">Latest News
-                                     & Press</p>
+                                   &amp; Press</p>
                                  </div>
                                </div>
                              </section>

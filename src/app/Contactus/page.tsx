@@ -1,6 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+
 import Header from "@/app/compontes/header"
 import Footer from "@/app/compontes/footer"
 import Form from 'next/form'
@@ -19,7 +18,7 @@ export default function Home() {
           
             </div>
             <div className="col-lg-3 align-items-center">
-                <p className="lg:text-[15px] sm:text-[18px] text-[14px] text-[#EEEEEE]" >FROM CONCEPT TO CREATION, WE'VE GOT YOU COVERED— LET'S TALK!</p>
+                <p className="lg:text-[15px] sm:text-[18px] text-[14px] text-[#EEEEEE]" >FROM CONCEPT TO CREATION, WE&apos;VE GOT YOU COVERED— LET&apos;S TALK!</p>
             </div>
         </div>
         </div>

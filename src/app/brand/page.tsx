@@ -1,31 +1,11 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
+
 import { motion } from 'framer-motion';
 import Header from "@/app/compontes/header"
 export default function Home() {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const newsData = [
-        {
-            image: "/assets/Rectangle 14.png",
-            alt: "News 1",
-            date: "December 04, 2024",
-            text: "Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team"
-        },
-        {
-            image: "/assets/Rectangle 15.png",
-            alt: "News 2",
-            date: "December 02, 2024",
-            text: "Crafting the Design for Beyond the Screen Digital Products Marketplace"
-        },
-        {
-            image: "/assets/Rectangle 16.png",
-            alt: "News 3",
-            date: "November 30, 2024",
-            text: "Script Studio Technologies Claims Site of the Week at Awwwards!"
-        }
-    ];
+   
 
     return (
        <><Header />
@@ -68,11 +48,11 @@ export default function Home() {
                         </h1>
                         <div className="col-lg-9">
                             <p className="mt-4 text-white font-semibold lg:text-[16px] sm:text-[12px] text-[16px]">
-                            At Script Studio, we help businesses rise above the noise with strategic, purpose-driven brand design. Our approach goes beyond just aesthetics; we focus on delivering brands that resonate with your audience, drive loyalty, and spark conversations. Whether you’re launching a new venture or revamping an existing identity, we ensure that your brand stands tall and speaks volumes.
+                            At Script Studio, we help businesses rise above the noise with strategic, purpose-driven brand design. Our approach goes beyond just aesthetics; we focus on delivering brands that resonate with your audience, drive loyalty, and spark conversations. Whether you&apos;re launching a new venture or revamping an existing identity, we ensure that your brand stands tall and speaks volumes.
                             </p>
                             <h4 className='lg:text-[26px] sm:text-[24px] text-[22px] mt-4'>What is a Brand?</h4>
                             <p className="text-gray-400 mt-4 text-[14px]">
-                            Your brand is your story told visually. It’s how your business communicates with your audience, and how customers identify with you. A strong brand builds trust and fosters connection. At Script Studio, we start by understanding your unique vision, goals, and market challenges. We then conduct in-depth research into your industry, competitors, and audience preferences. This allows us to craft a brand identity that speaks directly to your target demographic, cutting through the clutter and leaving a lasting impression.
+                            Your brand is your story told visually. It&apos;s how your business communicates with your audience, and how customers identify with you. A strong brand builds trust and fosters connection. At Script Studio, we start by understanding your unique vision, goals, and market challenges. We then conduct in-depth research into your industry, competitors, and audience preferences. This allows us to craft a brand identity that speaks directly to your target demographic, cutting through the clutter and leaving a lasting impression.
                             </p></div>
 
                         <div className="flex flex-wrap">
@@ -81,9 +61,9 @@ export default function Home() {
 
                                 <h5 className="text-white font-semibold">Innovative Brand Design?</h5>
                                 <p className="text-gray-400 mt-4 lg:text-[14px] sm:text-[12px] col-lg-11">
-                                Your brand is your story told visually. It’s how your business communicates with your audience, and how customers identify with you. A strong brand builds trust and fosters connection. At Script Studio, we start by understanding your unique vision, goals, and market challenges. We then conduct in-depth research into your industry, competitors, and audience preferences. This allows us to craft a brand identity that speaks directly to your target demographic, cutting through the clutter and leaving a lasting impression.</p>
+                                Your brand is your story told visually. It&apos;s how your business communicates with your audience, and how customers identify with you. A strong brand builds trust and fosters connection. At Script Studio, we start by understanding your unique vision, goals, and market challenges. We then conduct in-depth research into your industry, competitors, and audience preferences. This allows us to craft a brand identity that speaks directly to your target demographic, cutting through the clutter and leaving a lasting impression.</p>
                                 <div className="flex">
-                        <button className='underline flex'>Let’s Talk<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                        <button className='underline flex'>Let&apos;s Talk<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                         </div>
 
                                
@@ -112,7 +92,7 @@ export default function Home() {
 
                         <Image src="/assets/Border27.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg w-full shadow-lg" />
                     </div></div>
-            </section>"
+            </section>
 
             <section className="  lg:px-[80px] px-[20px] overflow-hidden lg:pt-[80px] pt-[40px] ">
                 <div className="flex flex-wrap ">
@@ -127,11 +107,11 @@ export default function Home() {
                         </h1>
                         <h4 className='lg:text-[26px] sm:text-[24px] text-[22px] mt-4'>What Makes Us Different?</h4>
                         <p className="mt-4 text-[16px]">
-                        We’re not just about following trends. We’re about creating meaningful, tailored brand identities that reflect your unique voice. What sets us apart? Our team’s commitment to understanding your audience’s psychology—how color, shapes, typography, and overall design affect perception. Every detail plays a part in making your brand truly memorable.
+                        We&apos;re not just about following trends. We&apos;re about creating meaningful, tailored brand identities that reflect your unique voice. What sets us apart? Our team&apos;s commitment to understanding your audience&apos;s psychology—how color, shapes, typography, and overall design affect perception. Every detail plays a part in making your brand truly memorable.
                         </p>
                         
                         <p className="mt-4 lg:text-[16px] sm:text-[14px]">
-                        Whether you're a startup looking to make a splash, a business refreshing its identity, or launching a new product, we’re here to help. From business cards to websites, brochures to banners, we design all the elements that make up your brand’s story. Every piece needs to work in harmony to make a bold statement.
+                        Whether you&apos;re a startup looking to make a splash, a business refreshing its identity, or launching a new product, we&apos;re here to help. From business cards to websites, brochures to banners, we design all the elements that make up your brand&apos;s story. Every piece needs to work in harmony to make a bold statement.
                         </p>
                     </div>
                 </div>
@@ -182,13 +162,13 @@ export default function Home() {
                         </h1>
                         
                         <p className="mt-4 lg:text-[18px] sm:text-[14px] text-12px">
-                        Forget cookie-cutter designs that lack personality. At Script Studio, we deliver bespoke branding solutions that stand out and make a statement. Our goal is simple: to create designs that reflect your business’ true essence, build trust, and leave an unforgettable mark on your customers.
+                        Forget cookie-cutter designs that lack personality. At Script Studio, we deliver bespoke branding solutions that stand out and make a statement. Our goal is simple: to create designs that reflect your business&apos; true essence, build trust, and leave an unforgettable mark on your customers.
                         </p>
                         <p className="mt-4 lg:text-[18px] sm:text-[14px] text-12px">
-                        Ready to elevate your brand to the next level? Whether you’re looking for a complete rebrand or just a refresh, we’re here to collaborate and bring your vision to life.
+                        Ready to elevate your brand to the next level? Whether you&apos;re looking for a complete rebrand or just a refresh, we&apos;re here to collaborate and bring your vision to life.
                         </p>
                         <div className="flex">
-                        <button className='underline flex'>Let’s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
+                        <button className='underline flex'>Let&apos;s Work Together<Image src="/assets/Symbol.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="w-[25px] ml-2" /></button>
                         </div>
 
                     </div>
@@ -196,45 +176,61 @@ export default function Home() {
 
                 </div>
             </section>
-           
+            <section className="overflow-hidden lg:px-[80px] px-[20px] pt-1 pb-5" data-aos="zoom-in">
+                    <div className="container-fluid p-0 m-0">
+                     <div className=" col-lg-12 ">
+                        <p>Blog</p>
+                      </div>
+                      <div className="col-lg-3">
+                        <p className="font-[500] text-[50px] leading-[45px]">Latest News
+                        &amp; Press</p>
+                      </div>
+                    </div>
+                  </section>
+                  <section className="overflow-hidden lg:px-[80px] px-[20px] pt-1 pb-5" data-aos="zoom-in">
+                    <div className="container-fluid p-0 m-0">
+                      <div className="flex flex-wrap mb-4 justify-center ">
+                        <div className="col-lg-4">
+                          <Image
+                            src="/assets/Rectangle 14.png"
+                            alt="..."
+                            width={500}
+                            height={300}
+                            className="rounded-[10px] p-0 m-0 "
+                          />
+                          <p className="mt-4 text-[15px]">Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team</p>
+                          <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>
+                        </div>
+                        <div className="col-lg-4">
+                          <Image
+                            src="/assets/Rectangle 15.png"
+                            alt="..."
+                            width={500}
+                            height={300}
+                            className="rounded-[10px] p-0 m-0 "
+                          />
+                          <p className="mt-4 text-[15px]">Crafting the Design for Beyond the Screen Digital Products Marketplace</p>
+                          <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>            
+                        </div>
+                        <div className="col-lg-4">
+                          <Image
+                            src="/assets/Rectangle 16.png"
+                            alt="..."
+                            width={500}
+                            height={300}
+                            className="rounded-[10px] p-0 m-0 "
+                          />
+                          <p className="mt-4 text-[15px]">Script Studio Technologies Claims Site of the Week at Awwwards!</p>
+                          <p className="mt-2 text-[10px] text-[#D1D1D1]">NOVEMBER 30, 2024</p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
 
          
             
 
-            
-            <div className="border-t-2 ms-5 me-5 mt-16 sm:block hidden"></div>
-            <section className="lg:px-[80px] px-[20px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-            
-            <div className=" pt-2 ">BLOG</div>
-                <h2 className="lg:text-[50px] sm:text-[40px] text-[26px] font-semibold text-left mt-4 mb-10">LATEST NEWS <br/>& PRESS</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-4">
-                    {newsData.map((item, index) => (
-                        <div
-                            key={index}
-                            className="relative group rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl"
-                        >
-                            <Image
-                                src={item.image}
-                                alt={item.alt}
-                                width={547}
-                                height={365}
-                                loading="lazy"
-                                className="transition-opacity duration-300 group-hover:opacity-75"
-                            />
-                            <div className="p-6">
-                                <p className="text-gray-300 text-lg font-small">{item.text}</p>
-
-                                <p className="pt-6 text-gray-400 text-sm uppercase font-semibold">{item.date}</p>
-
-                            </div>
-
-                        </div>
-                    ))}
-                </div>
-                <div className="flex justify-center  mt-10 mb-8 ">
-                    <button type="button" className="text-white hover:text-gray-400 border  border-white hover:bg-black justify-center text-center rounded-3xl px-2 py-1 " >VIEW ALL BLOGS</button>
-                  </div>
-            </section>
+          
      
         </>
     );
