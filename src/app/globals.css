@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+@font-face {
+  font-family: 'sr';
+  src: url('../app/compontes/fonts/Satoshi-Variable.ttf');
+}
+body {
+  color: var(--foreground);
+  background:black !important;
+  color: white !important;
+font-family: 'sr'!important;
+ 
+}
+@keyframes marquee_marquee__1 {
+  0% {
+    transform: translateX(0px)
+  }
+
+  to {
+    transform: translateX(-2413px);
+  }
+}
+
+@media (max-width: 800px) {
+  .p-text {
+    text-align: center !important;
+  }
+
+  .header-text-para {
+    padding-top: 10px;
+   
+  }
+}
+
+.submenuDropdown:hover .submenuDropdownDiv {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.menu-list:hover .menu-item {
+  visibility: visible;
+}
+
+.menu-item {
+  visibility: hidden;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 15s linear infinite;
+  display: flex;
+  will-change: transform;
+  visibility: visible;
+  white-space: nowrap;
+}
+
+
+.marquee-anim {
+  animation: marquee-anim 15s linear infinite;
+}
+
+@keyframes marquee-anim {
+  0% {
+    transform: translateX(0)
+  }
+
+  to {
+    transform: translateX(-100vw)
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
