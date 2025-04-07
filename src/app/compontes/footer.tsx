@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -18,25 +19,28 @@ export default function Home() {
                         <div className="col-lg-3 col-6 border-r">
                             <div className="flex "></div>
                             <div className="pt-4 lg:pl-5 pb-4 ">
-                                <li>facebook</li>
+                            <Link href="https://www.linkedin.com/company/scriptstudio-io/posts/?feedView=all" className="no-underline  text-white"><li>LinkedIn</li></Link>
 
-                                <li>instagram</li>
-                                <li>LinkedIn</li>
-                                <li> Dribble</li>
-                                <li>Behance
-                                </li>
+                                <Link href="https://www.instagram.com/scriptstudio.io?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="no-underline  text-white"><li>Instagram</li></Link>
+                                <Link href="https://dribbble.com/Scriptstudio_io" className="no-underline  text-white"><li>Dribble</li></Link>
+                                <Link href="https://www.behance.net/scriptstudio_io" className="no-underline  text-white"><li>Behance</li></Link>
+                                <Link href="https://teams.live.com/l/invite/FEA-5lT8B7utyWhuQE" className="no-underline  text-white"><li>Teams</li></Link>
+                               
+                               
+                            
                             </div>
 
                         </div>
                         <div className="col-lg-3 col-6">
                             <div className="pt-4 flex  pb-4 lg:pl-5 lg:justify-start justify-end">
                                 <div>
-                                    <li>Home</li>
+                                <Link href='/' className="text-white no-underline"><li>Home</li></Link>
 
-                                    <li>About Us</li>
-                                    <li>Services</li>
-                                    <li> Projects</li>
-                                    <li>Blogs</li>
+                                    <Link href='/Contactus' className="text-white no-underline"><li>About Us</li></Link>
+                                    <Link href='/Contactus' className="text-white no-underline"><li>Contact Us</li></Link>
+                                    <Link href='#' className="text-white no-underline"><li>Services</li></Link>
+                                    <Link href='/projects' className="text-white no-underline"><li>Projects</li></Link>
+                                    <Link href='/blog' className="text-white no-underline"><li>Blogs</li></Link>
 
                                 </div>
                             </div>
@@ -59,7 +63,7 @@ export default function Home() {
                                 <div className="col-lg-6">
                                     <div className="flex gap-0">
                                         <p className="lg:text-[90px] p-0 m-0 font-bold lg:leading-[90px] text-[80px] leading-[80px] uppercase">SCRIPT Studio</p>
-                                        {/* <p className="inline lg:text-[1vw] text-[3vw]">©2024-2025</p> */}
+                                        
                                         <div className="col-lg-4"><p className=" lg:text-[1vw] text-[3vw] font-medium p-0 m-0">©2024-2025</p></div>
                                     </div></div>
 
@@ -70,7 +74,7 @@ export default function Home() {
                         <div className="col-lg-6 mb-4">
                             <div className="flex lg:justify-end">
                                 <div className="col-lg-4">
-                                    <p className="text-center">All copyrights© reserved by <span className="underline font-medium">scriptstudio.io</span></p>
+                                    <p className="text-end">All copyrights© reserved by <span className="underline font-medium  flex justify-end">scriptstudio.io</span></p>
                                 </div>
                                 
                             </div>

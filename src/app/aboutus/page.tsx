@@ -1,11 +1,12 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import Header from "@/app/compontes/header";
 import Footer from "@/app/compontes/footer";
 import { useEffect } from "react";
 import "locomotive-scroll/dist/locomotive-scroll.css";
-
+import Page from "@/app/components/page";
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
@@ -21,8 +22,8 @@ export default function Home() {
             <section className="overflow-hidden lg:px-[80px] px-[40px]  pb-4 lg:pt-[150px] pt-[150px]">
        
                 <div className="container-fluid p-0 m-0">
-                    <div className=" row align-items-center ">
-                        <h2 className="text-center ">OUR MISSION</h2>
+                    <div className=" row align-items-center " >
+                        <h2 className="text-center font-bold ">OUR MISSION</h2>
                     </div>
                 </div>
                 <div className="flex justify-center">
@@ -32,11 +33,11 @@ export default function Home() {
             </section>
             <section className="overflow-hidden lg:px-[80px] px-[40px] pt-2 pb-4" >
                 <div className="flex justify-center mb-8 ">
-                    <button type="button" className="text-[#ffff] border mb-4 items-center  border-white hover:bg-[#ffff] hover:text-[#000] justify-center text-center rounded-3xl px-2 py-1 " >ACCELERATE YOUR GROWTH</button>
+                    <button type="button" className="text-[#ffff] border mb-4 items-center  border-white hover:bg-[#ffff] hover:text-[#000] justify-center text-center rounded-3xl px-4 py-2 " ><p className=" p-0 m-0 lg:text-[1vw] text-[3vw]">ACCELERATE YOUR GROWTH</p></button>
                 </div>
             </section>
 
-            <section className="overflow-hidden  lg:px-[80px] px-[40px]  pt-2 pb-4" data-aos="flip-up">
+            <section className="overflow-hidden  lg:px-[80px] px-[40px]  pt-2 pb-4">
                 <div className=""  >
                     <Image
                         src="/assets/Group 17612.png"
@@ -46,8 +47,7 @@ export default function Home() {
                         className=" p-0 m-0 w-full "
                     />
                 </div></section>
-            <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4"  data-aos="fade-up"
-    >
+            <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4">
                 <div className="container-fluid p-0 m-0">
                     <div className=" row align-items-center ">
                         <h2 className="text-center ">ABOUT SCRIPT STUDIO</h2>
@@ -59,16 +59,16 @@ export default function Home() {
                 <p className="  mt-3 lg:text-[20px] sm:text-[18px] lg:px-[80px] px-[0px] text-[14px] text-[#F6E3E3] text-center">
                     At Script Studio, we help companies break barriers in today&apos;s digitally driven world, regardless of whether they are just starting or already well-established. We don&apos;t just design—we develop, refine, and transform ideas into distinctive digital solutions that drive emotions and connect with audiences.</p>
             </section>
-            <section className="overflow-hidden lg:px-[80px] px-[40px] lg:pt-20 pt:10 pb-4" data-aos="fade-up">
+            <section className="overflow-hidden lg:px-[80px] px-[40px] lg:pt-20 pt:10 pb-4"  >
                 <div className="container-fluid p-0 m-0">
                     <div className=" row align-items-center ">
-                        <h2 className="text-center ">OUR STORY</h2>
+                        <h2 className="text-center font-bold ">OUR STORY</h2>
                     </div>
                 </div>
                 <p className="  mt-3 lg:text-[20px] lg:px-[80px] px-[0px] sm:text-[18px] text-[14px] text-[#F6E3E3] text-center">At Script Studio, we don&apos;t just build digital solutions—we craft experiences, nurture relationships, and fuel growth. Our journey has always been about pushing boundaries, sparking innovation, and helping our clients thrive in an ever-evolving digital world. We believe in the power of collaboration and the magic that happens when ideas are shared openly. Transparency and communication are at the core of every project, ensuring that we are not just meeting expectations but surpassing them.</p>
 
             </section>
-            <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4" data-aos="fade-up">
+            <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4" >
                 <div className="container-fluid p-0 m-0">
                     <div className="row mb-4">
                         <div className="col-lg-6">
@@ -213,19 +213,19 @@ export default function Home() {
 
                 </div>
             </section>
-            <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4"  data-aos="fade-up">
+            <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4"  >
                 <div className="container-fluid p-0 m-0">
                     <div className="col-lg-6 lg:mt-20 ">
-                        <h1>OUR VALUES</h1>
+                        <h1 text-center font-semibold>OUR VALUES</h1>
                         <p className=" lg:text-[20px] sm:text-[18px] text-[14px] mt-4 lg:text-start  text-[#CBCBCB]">At Script Studio, we don&apos;t just follow best practices—we create them. Our commitment to excellence and our unwavering focus on our clients’ success fuel everything we do. We believe that collaboration and clear communication are at the heart of every great project, and we prioritize transparency at every step to ensure that our clients feel informed, valued, and empowered.</p>
                     </div>
 
                 </div>
 
             </section>
-            <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4"  data-aos="zoom-in">
+            <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4" >
                 <div className="container-fluid p-0 m-0">
-                    <div className="row mb-4">
+                    <div className="row mb-4" >
 
                         <div className="col-lg-4">
                             <Image
@@ -241,27 +241,27 @@ export default function Home() {
                         </div>
                         <div className="col-lg-4">
                             <Image
-                                src="/assets/Group 17614.png"
+                                src="/assets/Group 17615.svg"
                                 
                                 alt="..."
                                 width={1080}
                                 height={1080}
                                 className="rounded-[10px] p-0 m-0 w-[50px] "
                             />
-                            <h3 className="mt-6">Efficiency:</h3>
-                            <p className="text-[16px] text-[#B8B8B8]">In a world where time is precious, we understand that every second counts. That&apos;s why we focus on maximizing resources and streamlining processes to deliver remarkable results faster and smarter. Our approach combines the latest tools with finely-tuned strategies, ensuring that our solutions are both cost-effective and impactful, without ever compromising on quality.</p>
+                            <h3 className="mt-6">Results-driven:</h3>
+                            <p className="text-[16px] text-[#B8B8B8]">We're not just about ideas; we&apos;re about results that speak for themselves. By continuously measuring and optimizing our work, we turn insights into action. We don&apos;t rest until we&apos;ve achieved tangible, game-changing outcomes that go beyond client expectations. At Script Studio, every move we make is geared towards one thing—making sure our clients succeed.</p>
 
                         </div>
                         <div className="col-lg-4">
                             <Image
-                                src="/assets/Group 17614.png"
+                                src="/assets/Group 17616.svg"
                                 alt="..."
                                 width={1080}
                                 height={1080}
                                 className="rounded-[10px] p-0 m-0 w-[50px] "
                             />
-                            <h3 className="mt-6">Efficiency:</h3>
-                            <p className="text-[16px] text-[#B8B8B8]">In a world where time is precious, we understand that every second counts. That&apos;s why we focus on maximizing resources and streamlining processes to deliver remarkable results faster and smarter. Our approach combines the latest tools with finely-tuned strategies, ensuring that our solutions are both cost-effective and impactful, without ever compromising on quality.</p>
+                            <h3 className="mt-6">Client-Centric:</h3>
+                            <p className="text-[16px] text-[#B8B8B8]">Every client is unique, and we treat them as such. Our client-centric philosophy means that we don&apos;t apply a one-size-fits-all approach; instead, we craft tailored solutions that resonate with each client&apos;s goals, challenges, and vision. We&apos;re not just service providers; we&apos;re partners in growth, building lasting relationships grounded in trust, understanding, and mutual success.</p>
 
                         </div>
 
@@ -272,44 +272,44 @@ export default function Home() {
 
 
             </section>
-            <section className="overflow-hidden lg:px-[80px] px-[40px] lg:pt-8 pb-4" data-aos="fade-up">
+            <section className="overflow-hidden lg:px-[80px] px-[40px] lg:pt-8 " >
                 <div className="container-fluid p-0 m-0">
-                    <div className="row mb-4">
+                    <div className="row mb-4" >
 
                         <div className="col-lg-4">
                             <Image
-                                src="/assets/Group 17614.png"
+                                src="/assets/Group 17617.svg"
                                 alt="..."
                                 width={1080}
                                 height={1080}
                                 className="rounded-[10px] p-0 m-0 w-[50px] "
                             />
-                            <h3 className="mt-6">Efficiency:</h3>
-                            <p className="text-[16px] text-[#B8B8B8]">In a world where time is precious, we understand that every second counts. That&apos;s why we focus on maximizing resources and streamlining processes to deliver remarkable results faster and smarter. Our approach combines the latest tools with finely-tuned strategies, ensuring that our solutions are both cost-effective and impactful, without ever compromising on quality.</p>
-
-                        </div>
-                        <div className="col-lg-4">
-                            <Image
-                                src="/assets/Group 17614.png"
-                                alt="..."
-                                width={1080}
-                                height={1080}
-                                className="rounded-[10px] p-0 m-0 w-[50px] "
-                            />
-                            <h3 className="mt-6">Efficiency:</h3>
-                            <p className="text-[16px] text-[#B8B8B8]">In a world where time is precious, we understand that every second counts. That&apos;s why we focus on maximizing resources and streamlining processes to deliver remarkable results faster and smarter. Our approach combines the latest tools with finely-tuned strategies, ensuring that our solutions are both cost-effective and impactful, without ever compromising on quality.</p>
+                            <h3 className="mt-6">Creativity:</h3>
+                            <p className="text-[16px] text-[#B8B8B8]">Creativity is our spark. It&apos;s what pushes us to innovate, to think outside the box, and to create work that truly stands out. From captivating designs to memorable campaigns, we thrive on delivering fresh, boundary-pushing ideas that engage audiences, challenge norms, and leave a lasting impression. At Script Studio, creativity is at the heart of everything we do.</p>
 
                         </div>
                         <div className="col-lg-4">
                             <Image
-                                src="/assets/Group 17614.png"
+                                src="/assets/Group 17618.svg"
                                 alt="..."
                                 width={1080}
                                 height={1080}
                                 className="rounded-[10px] p-0 m-0 w-[50px] "
                             />
-                            <h3 className="mt-6">Efficiency:</h3>
-                            <p className="text-[16px] text-[#B8B8B8]">In a world where time is precious, we understand that every second counts. That&apos;s why we focus on maximizing resources and streamlining processes to deliver remarkable results faster and smarter. Our approach combines the latest tools with finely-tuned strategies, ensuring that our solutions are both cost-effective and impactful, without ever compromising on quality.</p>
+                            <h3 className="mt-6">Innovation:</h3>
+                            <p className="text-[16px] text-[#B8B8B8]">We are constantly looking ahead. We believe in staying at the cutting edge of digital marketing, exploring new strategies, technologies, and tools to give our clients a competitive edge. Our innovation isn&apos;t just about staying current; it&apos;s about anticipating what&apos;s next and ensuring that our solutions are always ahead of the curve.</p>
+
+                        </div>
+                        <div className="col-lg-4">
+                            <Image
+                                src="/assets/Group 17619.svg"
+                                alt="..."
+                                width={1080}
+                                height={1080}
+                                className="rounded-[10px] p-0 m-0 w-[50px] "
+                            />
+                            <h3 className="mt-6">Adaptability:</h3>
+                            <p className="text-[16px] text-[#B8B8B8]">The digital world is ever-evolving, and so are we. At Script Studio, we pride ourselves on our ability to pivot and adapt to changing trends, technologies, and client needs. We stay agile, embracing new challenges and finding creative ways to help our clients thrive—no matter how fast the landscape shifts.</p>
 
                         </div>
 
@@ -320,7 +320,7 @@ export default function Home() {
                 <hr className="border border-1.9 "></hr>
 
             </section>
-            <section className="overflow-hidden lg:px-[80px] px-[40px] pt-0 pb-4" data-aos="fade-up">
+            <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4" >
                 <div className="container-fluid p-0 m-0">
                     <div className="col-lg-6 ">
                         <h1>MEET OUR TEAM</h1>
@@ -330,61 +330,10 @@ export default function Home() {
                 </div>
 
             </section>
-            <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4" data-aos="zoom-in">
-                <div className="container-fluid p-0 m-0">
-                    <div className="row mb-4">
+          
+            <Page/>
 
-                        <div className="col-lg-4">
-                            <Image
-                                src="/assets/image.png"
-                                alt="..."
-                                width={1080}
-                                height={1080}
-                                className=" p-0 m-0  "
-                            />
-                            <h3 className="mt-6">Akash Verma</h3>
-
-                            <p className="lg:mt-2 mt-0 lg:text-[16px] text-[12px] text-[#D1D1D1]">Founder, Business Development Head</p>
-
-
-                        </div>
-                        <div className="col-lg-4">
-                            <Image
-                                src="/assets/image (2).png"
-                                alt="..."
-                                width={1080}
-                                height={1080}
-                                className=" p-0 m-0  "
-                            />
-                            <h3 className="mt-6">Akanksha Singh </h3>
-
-                            <p className="lg:mt-2 mt-0 lg:text-[16px] text-[12px] text-[#D1D1D1]">Chief Financial Officer</p>
-
-
-                        </div>
-                        <div className="col-lg-4">
-                            <Image
-                                src="/assets/image (3).png"
-                                alt="..."
-                                width={1080}
-                                height={1080}
-                                className=" p-0 m-0  "
-                            />
-                            <h3 className="mt-6">Kalpana Kashyap</h3>
-
-                            <p className="lg:mt-2 mt-0 lg:text-[16px] text-[12px] text-[#D1D1D1]">Human Resource Manager</p>
-
-
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-            </section>
-
-            <section className="overflow-hidden lg:px-[80px] px-[40px] lg:pt-4 pb-4" data-aos="fade-up">
+            <section className="overflow-hidden lg:px-[80px] px-[40px] lg:pt-4 pb-4" >
                 <div className="container-fluid p-0 m-0">
                     <div className="row align-items-center justify-between">
 
@@ -403,7 +352,7 @@ export default function Home() {
                                         </p>
                                         <p className="text-[#C8C9C7] lg:mt-9">
                                         Get in touch with us today and discover how we can elevate your marketing strategy and create lasting results for your business.</p>
-                                    <button type="button" className="text-[#ffff] border mb-4 items-center border-white hover:bg-[#ffff] hover:text-[#000] sm:pl-[10px] text-center rounded-3xl lg:px-4 lg:py-3 mt-6 px-1 py-1" >CONTACT US NOW TO GET STARTED!</button>
+                                    <Link href="/Contactus" className="no-underline text-white"><button type="button" className="text-[#ffff] border mb-4 items-center border-white hover:bg-[#ffff] hover:text-[#000] sm:pl-[10px] text-center rounded-3xl lg:px-4 lg:py-3 mt-6 px-4 py-2" ><p className=" p-0 m-0 lg:text-[1vw] text-[3vw]">CONTACT US NOW TO GET STARTED!</p></button></Link>
                                 </div>
                             </div>
 

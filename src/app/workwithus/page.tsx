@@ -26,11 +26,14 @@ export default function Home() {
 
           <div className="row justify-between">
             <div className="col-lg-6 mb-4 ">
-              <h1>Join Our <span className="text-[#8D8DFF]">Team</span></h1>
+              <h1 className="text-bold">Join Our <span className="text-[#8D8DFF]">Team</span></h1>
               <p className="text-[#C8C9C7] lg:text-[1vw] sm:text-[2.2vw] text-[3vw]">At Script Studio, joining our team means becoming part of a dynamic, collaborative, and growth-driven environment. You&apos;ll have the opportunity to work on diverse, exciting projects, gain hands-on experience with cutting-edge technologies, and receive mentorship to help you reach your full potential. Your contributions will be valued, and you&apos;ll be recognized for the impact you make. Take the leap and be part of a team that prioritizes your professional development and empowers you to thrive in the fast-paced world of digital marketing. </p>
               <p className="text-[#C8C9C7] lg:text-[1vw]  sm:text-[2.4vw] text-[3vw] mt-9">
                 Explore our current job openings and take the next step in your career with <span className="text-[#8D8DFF] lg:text-[1vw] text-[3vw]">Script Studio.</span></p>
-              <Link href="/JobDescription" type="button" className="text-[#ffff] border mb-4 no-underline items-center border-white hover:bg-[#ffff] hover:text-[#000]  sm:pl-[10px] text-center mb-4 rounded-3xl lg:px-3 lg:py-2  px-2 py-1 mt-6" >OPEN POSITIONS</Link>
+              <Link href="/JobDescription" className="text-white"><button className="lg:px-5 lg:py-1 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
+                        <p className='p-0 m-0 lg:text-[0.8vw] sm:text[1vw] text-[3vw]'>OPEN POSITIONS</p>
+                    </button>
+</Link>
 
             </div>
             <div className="col-lg-6 mb-4 justify-between  ">
@@ -98,7 +101,7 @@ export default function Home() {
 
             <div className="col-lg-4 mb-4">
               <Image
-                src="/assets/Group 17628.png"
+                src="/assets/Group 17628.svg"
                 alt="..."
                 width={1080}
                 height={1080}
@@ -110,7 +113,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4 mb-4">
               <Image
-                src="/assets/Group 17630.png"
+                src="/assets/Group 17630.svg"
 
                 alt="..."
                 width={1080}
@@ -123,7 +126,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4 mb-4">
               <Image
-                src="/assets/Group 17632.png"
+                src="/assets/Group 17632.svg"
                 alt="..."
                 width={1080}
                 height={1080}
@@ -137,7 +140,7 @@ export default function Home() {
 
             <div className="col-lg-4 mt-4 mb-4">
               <Image
-                src="/assets/Group 17634.png"
+                src="/assets/Group 17634.svg"
                 alt="..."
                 width={1080}
                 height={1080}
@@ -149,7 +152,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4 mt-4 mb-4">
               <Image
-                src="/assets/Group 17636.png"
+                src="/assets/Group 17636.svg"
 
                 alt="..."
                 width={1080}
@@ -162,7 +165,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4 mt-4 mb-4">
               <Image
-                src="/assets/Group 17638.png"
+                src="/assets/Group 17638.svg"
                 alt="..."
                 width={1080}
                 height={1080}
@@ -193,7 +196,7 @@ export default function Home() {
       </section>
       <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4 ">
         <div className="container-fluid p-0 m-0">
-          <div className="row  ">
+          <div className="col-lg-9 row  ">
 
             <div className="col-lg-4  mb-4">
 

@@ -56,7 +56,7 @@ export default function MenuBar({ isMobile }: { isMobile: boolean }) {
 
     // Define menu structure
     const menuItems: MenuItem[] = [
-        { name: "Home", link: "app/page", hasDropdown: false },
+        { name: "Home", link: "/", hasDropdown: false },
         { name: "About Us", link: "/aboutus", hasDropdown: false },
         {
             name: "Services",
@@ -75,20 +75,20 @@ export default function MenuBar({ isMobile }: { isMobile: boolean }) {
                
        
         { name: "Projects", link: "/projects", hasDropdown: false },
-        { name: "Work with us", link: "/workwithus", hasDropdown: false },
-        { name: "blog", link: "/blog", hasDropdown: false },
+        { name: "Work With Us", link: "/workwithus", hasDropdown: false },
+        { name: "Blog", link: "/blog", hasDropdown: false },
         
         { name: "Contact Us", link: "/Contactus", hasDropdown: false },
     ];
 
     // Social media links
     const socialLinks: SocialLink[] = [
-        { name: "LinkedIn", link: "https://linkedin.com" },
-        { name: "Instagram", link: "https://instagram.com" },
-        { name: "Facebook", link: "https://facebook.com" },
-        { name: "Dribbble", link: "https://dribbble.com" },
-        { name: "Behance", link: "https://behance.net" },
-        { name: "Skype", link: "https://skype.com" },
+        { name: "LinkedIn", link: "https://www.linkedin.com/company/scriptstudio-io/?viewAsMember=true" },
+        { name: "Instagram", link: "https://www.instagram.com/scriptstudio.io?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
+       
+        { name: "Dribbble", link: "https://dribbble.com/Scriptstudio_io" },
+        { name: "Behance", link: "https://www.behance.net/scriptstudio_io" },
+        { name: "Teams", link: "https://teams.live.com/l/invite/FEA-5lT8B7utyWhuQE" },
     ];
 
     return (

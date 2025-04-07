@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Header from "@/app/compontes/header";
+import Footer from "@/app/compontes/footer";
 
 export default function Page() {
     return (
         <>
             <Header />
-            <section className='lg:px-[80px] px-[40px] pb-5 overflow-hidden'>
+            <section className='lg:px-[80px] px-[40px] overflow-hidden lg:pt-[150px] pt-[150px]'>
                 <div className="row relative">
                     <Image
                         src="/assets/macbook-16-pro-mockup-on-concrete-background-front-view.png"
@@ -38,7 +39,7 @@ export default function Page() {
                         </div>
                         <div className="col-lg-9 lg:ml-5 ">
 
-                            <p className="lg:text-[1.8vw] text-[3vw] lg:leading-[2vw] lg:pt-0 pt-4 leading-[3vw]">Orbital is a comprehensive platform designed to manage and configure Discord servers. It&apos;s a robust tool that empowers you to efficiently manage, engage, and grow your server in ways you never imagined.</p>
+                            <p className="lg:text-[1.5vw] text-[3vw] lg:leading-[1.5vw] lg:pt-0 pt-4 leading-[3vw]">Orbital is a comprehensive platform designed to manage and configure Discord servers. It&apos;s a robust tool that empowers you to efficiently manage, engage, and grow your server in ways you never imagined.</p>
                         </div>
                     </div>
                 </div>
@@ -335,6 +336,7 @@ export default function Page() {
                 </div>
 
             </section>
+            <Footer/>
         </>
     )
 };

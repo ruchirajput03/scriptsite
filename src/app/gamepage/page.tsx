@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 import Header from "@/app/compontes/header"
@@ -31,9 +32,9 @@ export default function Home() {
                     Welcome to<span className='text-white font-semibold'>Script Studio,</span>  where we blend <span className='text-white font-semibold'>Creativity </span> and <span className='text-white font-semibold'>Technology </span> to create <span className='text-white font-semibold'> Immersive Gaming Experiences.</span> As a trusted game development partner, we help you bring your game ideas to life with cutting-edge technology, captivating storytelling, and engaging gameplay. Whether it’s a<span className='text-white font-semibold'> Mobile Adventure,</span>  A  <span className='text-white font-semibold'>Console Masterpiece,</span>  or an <span className='text-white font-semibold'>NFT-Powered Universe,</span>  we have the expertise to create games that leave a lasting impact.
                     </p>
                     <div className='pt-4'>
-                        <button className=" lg:px-3 lg:py-2 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
-                            GET A FREE CONSULTATION
-                        </button>
+                    <Link href="/Contactus" className='text-white'><button className="lg:px-5 lg:py-1 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
+                        <p className='p-0 m-0 lg:text-[0.8vw] sm:text[1vw] text-[3vw]'>GET A FREE CONSULTATION</p>
+                    </button></Link>
 
                     </div>
                 </div>

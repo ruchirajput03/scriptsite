@@ -2,6 +2,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import Header from "@/app/compontes/header";
 import { useEffect } from "react";
 
@@ -27,15 +28,14 @@ export default function Home() {
     
       <Header />
 
-      <section className="overflow-hidden lg:px-[80px] px-[20px] lg:pt-[150px] pt-[15 0px]" >
+      <section className="overflow-hidden lg:px-[80px] px-[20px] lg:pt-[150px] pt-[150px]" >
         <div className="container-fluid ">
           <div
             className="row align-items-center justify-between"
           >
-            <div className="col-lg-6 mb-4" data-aos="fade-up"
-              data-aos-duration="3000">
+            <div className="col-lg-6 mb-4" >
               <div className="col-lg-12">
-                <video className="relative w-full rounded-lg" autoPlay loop muted playsInline preload="auto">
+                <video className="relative w-full rounded-lg" autoPlay loop muted playsInline preload="auto"  >
                   <source src="/assets/mainvi.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -43,9 +43,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col-lg-6 mb-4" data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="1500">
+            <div className="col-lg-6 mb-4" >
               <div className="flex lg:justify-center">
                 <div className="col-lg-11">
                   <p className="lg:text-[60px] text-[30px] lg:leading-[60px] font-bold sm:text-[40px] sm:leading-[45px] leading-[35px]">
@@ -97,9 +95,9 @@ export default function Home() {
 
 
       </section>
-      <section className="overflow-hidden lg:px-[80px] px-[20px] lg:pt-4 pb-4" data-aos="fade-down"
+      <section className="overflow-hidden lg:pt-[150px] pt-[80px] lg:px-[80px] px-[20px]  pb-4" data-aos="fade-down"
               data-aos-easing="linear"
-              data-aos-duration="1500">
+              data-aos-duration="750">
        
            <p className=" flex justify-center items-center  text-[#B8B8B8]">--ABOUT US--</p>
            
@@ -113,7 +111,7 @@ export default function Home() {
          </div>
 
        </section>
-      <section className="overflow-hidden lg:px-[80px] px-[20px] pt-4 pb-4 " data-aos="zoom-in">
+      <section className="overflow-hidden lg:px-[80px] px-[20px] lg:pt-[150px] pt-[80px] pb-4 " data-aos="zoom-in">
          <div className="row relative">
            <div className=" flex justify-center  ">
              <div className="col-lg-5">
@@ -344,8 +342,8 @@ export default function Home() {
 
 
        </section>
-      <hr className=" border border-1.9 " data-aos="zoom-in" ></hr>
-      <section className="overflow-hidden lg:px-[80px] px-[20px] pt-4 "  data-aos="zoom-in">
+      <hr className=" border border-1.9 " data-aos="fade-up" ></hr>
+      <section className="overflow-hidden lg:px-[80px] px-[20px] pt-4 "  data-aos="fade-up">
         <div className="container-fluid ">
           <div className="items-center pb-4 pt-4 row">
             <div className="col-lg-6 mb-4">
@@ -388,8 +386,8 @@ export default function Home() {
 
         </div>
       </section>
-      <hr className=" border border-1.9 " data-aos="zoom-in" ></hr>
-      <section className="overflow-hidden lg:px-[80px] px-[20px] pt-4 "  data-aos="zoom-in">
+      <hr className=" border border-1.9 " data-aos="fade-up" ></hr>
+      <section className="overflow-hidden lg:px-[80px] px-[20px] pt-4 "  data-aos="fade-up">
         <div className="container-fluid ">
           <div className="items-center pb-4 pt-4 row">
             <div className="col-lg-6 mb-4">
@@ -432,8 +430,8 @@ export default function Home() {
 
         </div>
       </section>
-      <hr className=" border border-1.9 " data-aos="zoom-in" ></hr>
-      <section className="overflow-hidden lg:px-[80px] px-[20px] pt-4 "  data-aos="zoom-in">
+      <hr className=" border border-1.9 " data-aos="fade-up" ></hr>
+      <section className="overflow-hidden lg:px-[80px] px-[20px] pt-4 "  data-aos="fade-up">
         <div className="container-fluid ">
           <div className="items-center pb-4 pt-4 row">
             <div className="col-lg-6 mb-4">
@@ -478,64 +476,80 @@ export default function Home() {
       </section>
 
 
-      <hr className=" border border-1.9 " data-aos="zoom-in" ></hr>
-    
-      <section className="overflow-hidden lg:px-[80px] px-[20px] pt-1 pb-5" data-aos="zoom-in">
-         <div className="container-fluid p-0 m-0">
-          <div className=" col-lg-12 ">
-             <p>Blog</p>
-           </div>
-           <div className="col-lg-3">
-             <p className="font-[500] text-[50px] leading-[45px]">Latest News
-             &amp; Press</p>
-           </div>
-         </div>
-       </section>
-       <section className="overflow-hidden lg:px-[80px] px-[20px] pt-1 pb-5" data-aos="zoom-in">
-         <div className="container-fluid p-0 m-0">
-           <div className="flex flex-wrap mb-4 justify-center ">
-             <div className="col-lg-4">
-               <Image
-                 src="/assets/Rectangle 14.png"
-                 alt="..."
-                 width={500}
-                 height={300}
-                 className="rounded-[10px] p-0 m-0 "
-               />
-               <p className="mt-4 text-[15px]">Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team</p>
-               <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>
-             </div>
-             <div className="col-lg-4">
-               <Image
-                 src="/assets/Rectangle 15.png"
-                 alt="..."
-                 width={500}
-                 height={300}
-                 className="rounded-[10px] p-0 m-0 "
-               />
-               <p className="mt-4 text-[15px]">Crafting the Design for Beyond the Screen Digital Products Marketplace</p>
-               <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>            
-             </div>
-             <div className="col-lg-4">
-               <Image
-                 src="/assets/Rectangle 16.png"
-                 alt="..."
-                 width={500}
-                 height={300}
-                 className="rounded-[10px] p-0 m-0 "
-               />
-               <p className="mt-4 text-[15px]">Script Studio Technologies Claims Site of the Week at Awwwards!</p>
-               <p className="mt-2 text-[10px] text-[#D1D1D1]">NOVEMBER 30, 2024</p>
-             </div>
-           </div>
-         </div>
-       </section>
-      
-      <div className="flex justify-center mb-8 " >
-        <div className="col-md-2">
-        <button type="button" className="text-[#ffff] border mb-4 items-center w-[160px] border-white hover:bg-[#ffff] hover:text-[#000] justify-center text-center rounded-full py-1 " >VIEW ALL BLOGS</button>
+      <hr className=" border border-1.9 " data-aos="fade-up" ></hr>
+ <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-5" data-aos="fade-up" >
+                <div className="container-fluid p-0 m-0">
+                    <div className=" col-lg-12 ">
+                        <p>Blog</p>
+                    </div>
+                    <div className="col-lg-4">
+                        <p className="font-bold lg:text-[50px] sm:text-[40px] text-[35px] lg:leading-[55px]">Latest News
+                            &amp; Press</p>
+                    </div>
+                </div>
+            </section>
+
+            <section className="overflow-hidden lg:px-[80px] px-[40px] p pb-5"data-aos="fade-up">
+                <div className="container-fluid p-0 m-0">
+                    <div className="col-lg-12">
+                        <div className="flex flex-wrap mb-4  justify-center ">
+
+                            <div className="col-lg-4">
+                                <div className="flex justify-center">
+                                    <div className='col-lg-10'>
+                                        <Image
+                                            src="/assets/Rectangle 14.png"
+                                            alt="..."
+                                            width={500}
+                                            height={300}
+                                            className="rounded-[10px] p-0 m-0 "
+                                        />
+                                        <p className="mt-4 text-[15px]">Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team</p>
+                                        <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-4">
+                                <div className="flex justify-center">
+                                    <div className='col-lg-10'>
+                                        <Image
+                                            src="/assets/Rectangle 15.png"
+                                            alt="..."
+                                            width={500}
+                                            height={300}
+                                            className="rounded-[10px] p-0 m-0 "
+                                        />
+                                        <p className="mt-4 text-[15px]">Crafting the Design for Beyond the Screen Digital Products Marketplace</p>
+                                        <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4">
+                                <div className="flex justify-center">
+                                    <div className='col-lg-10'>
+                                        <Image
+                                            src="/assets/Rectangle 16.png"
+                                            alt="..."
+                                            width={500}
+                                            height={300}
+                                            className="rounded-[10px] p-0 m-0 "
+                                        />
+                                        <p className="mt-4 text-[15px]">Script Studio Technologies Claims Site of the Week at Awwwards!</p>
+                                        <p className="mt-2 text-[10px] text-[#D1D1D1]">NOVEMBER 30, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div className="flex justify-center mb-8 mt-4" >
+        <div className="col-md-2 flex justify-center">
+        <Link href="/blog" type="button" className="text-[#ffff] no-underline border mb-4 items-center w-[160px] border-white hover:bg-[#ffff] hover:text-[#000] justify-center text-center rounded-full px-3 py-2 " ><p className='p-0 m-0 lg:text-[0.8vw] sm:text-[1vw] text-[3vw]'>VIEW ALL BLOGS</p></Link>
         </div>
       </div> 
+            </section>
   <Footer />
 
 
