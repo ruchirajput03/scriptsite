@@ -23,7 +23,7 @@ export default function Home() {
        
                 <div className="container-fluid p-0 m-0">
                     <div className=" row align-items-center " >
-                        <h2 className="text-center font-bold ">OUR MISSION</h2>
+                        <h1 className="text-center  font-bold ">OUR MISSION</h1>
                     </div>
                 </div>
                 <div className="flex justify-center">
@@ -33,7 +33,7 @@ export default function Home() {
             </section>
             <section className="overflow-hidden lg:px-[80px] px-[40px] pt-2 pb-4" >
                 <div className="flex justify-center mb-8 ">
-                    <button type="button" className="text-[#ffff] border mb-4 items-center  border-white hover:bg-[#ffff] hover:text-[#000] justify-center text-center rounded-3xl px-4 py-2 " ><p className=" p-0 m-0 lg:text-[1vw] text-[3vw]">ACCELERATE YOUR GROWTH</p></button>
+                    <Link href="/Contactus" className="no-underline text-white"><button type="button" className="text-[#ffff] border mb-4 items-center  border-white hover:bg-[#ffff] hover:text-[#000] justify-center text-center rounded-3xl px-4 py-2 " ><p className=" p-0 m-0 lg:text-[1vw] text-[3vw]">ACCELERATE YOUR GROWTH</p></button></Link>
                 </div>
             </section>
 
@@ -50,7 +50,7 @@ export default function Home() {
             <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4">
                 <div className="container-fluid p-0 m-0">
                     <div className=" row align-items-center ">
-                        <h2 className="text-center ">ABOUT SCRIPT STUDIO</h2>
+                        <h2 className="text-center font-semibold ">ABOUT SCRIPT STUDIO</h2>
                     </div>
                 </div>
                 <p className="  mt-3 lg:text-[20px] lg:px-[80px] px-[0px] sm:text-[18px] text-[14px] text-[#F6E3E3] text-center">Script Studio is not just a digital agency; it is a creative hub fueled by passion and growth. Our team consists of the top 3% of designers, developers, and digital professionals, dedicated to crafting innovative solutions that solve challenges and strengthen brands. We thrive on finding creative ways to build meaningful digital experiences that elevate businesses.</p>
@@ -216,7 +216,7 @@ export default function Home() {
             <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4"  >
                 <div className="container-fluid p-0 m-0">
                     <div className="col-lg-6 lg:mt-20 ">
-                        <h1 text-center font-semibold>OUR VALUES</h1>
+                        <h1 text-center font-bold>OUR VALUES</h1>
                         <p className=" lg:text-[20px] sm:text-[18px] text-[14px] mt-4 lg:text-start  text-[#CBCBCB]">At Script Studio, we don&apos;t just follow best practices—we create them. Our commitment to excellence and our unwavering focus on our clients’ success fuel everything we do. We believe that collaboration and clear communication are at the heart of every great project, and we prioritize transparency at every step to ensure that our clients feel informed, valued, and empowered.</p>
                     </div>
 
@@ -249,7 +249,7 @@ export default function Home() {
                                 className="rounded-[10px] p-0 m-0 w-[50px] "
                             />
                             <h3 className="mt-6">Results-driven:</h3>
-                            <p className="text-[16px] text-[#B8B8B8]">We're not just about ideas; we&apos;re about results that speak for themselves. By continuously measuring and optimizing our work, we turn insights into action. We don&apos;t rest until we&apos;ve achieved tangible, game-changing outcomes that go beyond client expectations. At Script Studio, every move we make is geared towards one thing—making sure our clients succeed.</p>
+                            <p className="text-[16px] text-[#B8B8B8]">We&apos;re not just about ideas; we&apos;re about results that speak for themselves. By continuously measuring and optimizing our work, we turn insights into action. We don&apos;t rest until we&apos;ve achieved tangible, game-changing outcomes that go beyond client expectations. At Script Studio, every move we make is geared towards one thing—making sure our clients succeed.</p>
 
                         </div>
                         <div className="col-lg-4">
@@ -323,7 +323,7 @@ export default function Home() {
             <section className="overflow-hidden lg:px-[80px] px-[40px] pt-8 pb-4" >
                 <div className="container-fluid p-0 m-0">
                     <div className="col-lg-6 ">
-                        <h1>MEET OUR TEAM</h1>
+                        <h1 className="font-bold">MEET OUR TEAM</h1>
                         <p className=" lg:text-[20px] sm:text-[20px] text-[14px] text-start text-[#CBCBCB]">At Script Studio, we believe that success comes from the collaboration of talented individuals with diverse skills. Our dedicated team of designers, developers, marketers, and digital experts work together to help your business thrive in the ever-changing digital landscape. With a shared passion for innovation and excellence, we turn ideas into impactful results that drive growth and success. Meet the people behind Script Studio—your partners in digital success.</p>
                     </div>
 

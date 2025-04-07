@@ -33,7 +33,7 @@ export default function Home() {
                     <p className="text-gray-400 lg:mt-8 mt-0 lg:text-[20px] sm:text-[18px] text-[14px] lg:leading-[45px] sm:leading-[35px]">
                         Enhancing Your Online Presence – Distinguish Yourself On The Web And Attract Potential Clients
                     </p>
-                    <Link href="/Contactus" className='text-white'><button className="lg:px-5 lg:py-1 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
+                    <Link href="/Contactus" className='text-white no-underline'><button className="lg:px-5 lg:py-1 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
                         <p className='p-0 m-0 lg:text-[0.8vw] sm:text[1vw] text-[3vw]'>GET A FREE CONSULTATION</p>
                     </button></Link>
                 </div>
@@ -44,13 +44,12 @@ export default function Home() {
             </section>
 
 
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[20px] ">
+            <section className="lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[20px] ">
                 <div className="pb-3 pt-3 text-gray-400 mb-4">Script Studio / Web Design &amp; Development</div>
-                <div className="flex justify-center flex-wrap">
-             
-                    <div className="col-lg-6 order-lg-1 order-2" >
+                <div className="row lg:items-center ">
+                    <div className="col-lg-6 order-lg-1 order-2 mb-4 " >
 
-                   
+
                         <h1 className="lg:text-[40px] sm:text-[35px] font-semibold text-[26px] lg:leading-[45px] sm:leading-[45px] leading-[35px] ">
                             EXPERTS IN WEBSITE DESIGN &amp; DEVELOPMENT
                         </h1>
@@ -60,9 +59,7 @@ export default function Home() {
                             </p>
                             <p className="text-gray-400 mt-4 lg:text-[14px] sm:text-[16px] text-[14px]">
                                 We combine the right platforms, the latest technology, and a customized approach to suit your unique needs. Whether  you&apos;re looking for an eCommerce site, web app, or mobile app, we employ cutting-edge tech to ensure top-tier performance. From the initial design phase to development and launch, we work closely with you to create a digital experience that captivates and converts.
-                            </p>
-                            </div>
-                           
+                            </p></div>
 
                         <div className="flex flex-wrap">
 
@@ -91,24 +88,23 @@ export default function Home() {
                                 <li className="text-gray-400 lg:text-[16px] sm:text-[16px] text-[14px] mt-2">Performance Optimization</li>
 
                             </div>
-                            </div>
-                        
+
 
 
                         </div>
 
-             
+                    </div>
 
 
-                    <div className="col-lg-6 order-lg-2 order-1 lg:mt-20 mb-4">
+                    <div className="col-lg-6 order-lg-2 order-1 lg:sticky lg:max-h-screen lg:top-[200px] mb-4">
 
                         <Image src="/assets/expertise-image.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg sticky w-full shadow-lg" />
                     </div></div>
             </section>
 
-            <section className="  lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]" >
-                <div className="flex flex-wrap ">
-                    <div className="col-lg-6 ">
+            <section className="  lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px]" >
+                <div className="flex flex-wrap lg:items-center ">
+                    <div className="col-lg-6 lg:sticky lg:max-h-screen lg:top-[200px]  ">
                         <Image src="/assets/ecommerce-image.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg w-full shadow-lg " />
                     </div>
 
@@ -141,8 +137,8 @@ export default function Home() {
 
 
             </section>
-            <section className="  lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]" >
-                <div className="flex flex-wrap">
+            <section className="  lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px]" >
+                <div className="flex flex-wrap items-center">
 
 
                     <div className="col-lg-6 order-lg-1 order-2 ">
@@ -167,7 +163,7 @@ export default function Home() {
                             Our custom website design and development ensure that your business stands out in the digital space. We follow a bespoke process, ensuring 100% design satisfaction from start to finish.
                         </p>
                     </div>
-                    <div className="col-lg-6 order-lg-2 lg:px-[80px] px-[40px] order-1">
+                    <div className="col-lg-6 order-lg-2 lg:px-[80px] px-[40px] order-1 lg:sticky lg:max-h-screen lg:top-[200px]">
                         <Image src="/assets/dashboard and image (1).png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg shadow-lg w-full p-4 md:p-8" />
                     </div>
                 </div>
@@ -179,9 +175,9 @@ export default function Home() {
 
 
 
-            <section className="  lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]" >
-                <div className="flex flex-wrap ">
-                    <div className="col-lg-6 ">
+            <section className="  lg:px-[80px] px-[40px] lg:pt-[80px] pt-[40px]" >
+                <div className="flex flex-wrap  items-center">
+                    <div className="col-lg-6 lg:sticky lg:max-h-screen lg:top-[200px] ">
                         <Image src="/assets/inteligent-image.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg w-full shadow-lg " />
                     </div>
 
@@ -215,7 +211,7 @@ export default function Home() {
             <div className="border-t-2 ms-5 me-5 mt-20 sm:block hidden "></div>
 
 
-            <section className=" lg:px-[80px] px-[40px] flex flex-wrap overflow-hidden lg:pt-[80px] pt-[40px] " >
+            <section className=" lg:px-[80px] px-[40px] flex flex-wrap overflow-hidden items-start lg:pt-[80px] pt-[40px] " >
 
                 <div className=" col-lg-6 ">
                     <h1 className="lg:text-[50px] sm:text-[30px] text-white mt-10">OUR APPROACH:</h1>

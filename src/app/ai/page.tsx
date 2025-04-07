@@ -26,7 +26,7 @@ export default function Home() {
 
             <section className='lg:px-[80px] px-[40px] overflow-hidden lg:pt-[150px] pt-[150px]'>
                 <div className='col-lg-6'>
-                    <h1 className="lg:text-[60px] sm:text-[40px] text-[20px] lg:leading-[65px] sm:leading-[45px] leading-[20px]">
+                    <h1 className="lg:text-[60px] sm:text-[40px] font-bold text-[20px] lg:leading-[65px] sm:leading-[45px] leading-[20px]">
                         ARTIFICIAL INTELLIGENCE DEVELOPMENT
                     </h1>
 
@@ -36,7 +36,7 @@ export default function Home() {
                         Transform your business operations, customer experiences, and innovation with cutting-edge AI solutions tailored to your unique needs. Whether you&apos;re exploring generative AI, building intelligent machine learning models, or enhancing processes with computer vision, Script Studio is here to elevate your business to new heights. Let&apos;s drive your success with<span className='text-white font-semibold'>smart, scalable, and responsive AI services.</span>
                     </p>
                     <div className='pt-4'>
-                    <Link href="/Contactus" className='text-white'><button className="lg:px-5 lg:py-1 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
+                    <Link href="/Contactus" className='text-white no-underline'><button className="lg:px-5 lg:py-1 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
                         <p className='p-0 m-0 lg:text-[0.8vw] sm:text[1vw] text-[3vw]'>GET A FREE CONSULTATION</p>
                     </button></Link>
 
@@ -58,7 +58,7 @@ export default function Home() {
                     <div className="col-lg-6 order-lg-1 order-2 lg:pt-[80px] pt-[40px] ">
 
                         <div className="pb-3 mt-3 text-gray-400">Script Studio / AI development agency</div>
-                        <h1 className="lg:text-[35px] sm:text-[30px]  text-[20px]  uppercase  lg:leading-[40px] sm:leading-[45px] leading-[35px] ">
+                        <h1 className="lg:text-[35px] sm:text-[30px] font-semibold text-[20px]  uppercase  lg:leading-[40px] sm:leading-[45px] leading-[35px] ">
                             Achieve smarter growth with our comprehensive range of Artificial Intelligence services and solutions.
                         </h1>
                         <div className="col-lg-8">
@@ -98,10 +98,10 @@ export default function Home() {
             </section>
 
 
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]">
-                <div className="flex flex-wrap  ">
+            <section className="lg:px-[80px] px-[40px] lg:pt-[80px] pt-[40px]">
+                <div className="row items-center ">
 
-                    <div className="col-lg-6 ">
+                    <div className="col-lg-6 lg:sticky lg:max-h-screen lg:top-[200px] ">
                         <Image src="/assets/motion/hiiiuybsu.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg w-full shadow-lg " />
                     </div>
 
@@ -109,7 +109,7 @@ export default function Home() {
                         <div className="flex justify-center">
                             <div className="col-lg-10 lg:pt-[80px] pt-[40px]">
 
-                                <h1 className="lg:text-[40px] sm:text-[30px] uppercase text-[20px]  text-white leading-[1]">
+                                <h1 className="lg:text-[40px] font-semibold sm:text-[30px] uppercase text-[20px]  text-white leading-[1]">
                                     AI Consulting
                                 </h1>
 
@@ -140,14 +140,14 @@ export default function Home() {
 
 
             </section>
-            <section className=" lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap ">
+            <section className=" lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
+                <div className="row items-center ">
 
                     <div className="col-lg-6 order-lg-1 order-2 lg:pt-[80px] pt-[40px]">
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] sm:text-[30px] text-[22px] uppercase text-white ">
+                                <h1 className="lg:text-[40px] font-semibold sm:text-[30px] text-[22px] uppercase text-white ">
                                     AI<br></br> DEVELOPMENT
                                 </h1>
 
@@ -175,7 +175,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 w-full order-lg-2 order-1 ">
+                    <div className="col-lg-6 w-full order-lg-2 order-1  lg:sticky lg:max-h-screen lg:top-[200px]">
                         <Image src="/assets/UI/imageihijij.png" alt="Web Design" width={700} height={450} loading="lazy" className="rounded-lg shadow-lg w-full " />
                     </div>
                 </div>
@@ -185,9 +185,9 @@ export default function Home() {
 
 
             </section>
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap flex-col md:flex-row items-start  ">
-                    <div className="col-lg-6 mb-4 w-full">
+            <section className="lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
+                <div className="row flex-col md:flex-row items-center  ">
+                    <div className="col-lg-6 mb-4 w-full lg:sticky lg:max-h-screen lg:top-[200px]">
                         <Image src="/assets/UI/imageojojojo.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg shadow-lg  w-full " />
                     </div>
 
@@ -195,7 +195,7 @@ export default function Home() {
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] uppercase sm:text-[35px] text-[26px] leading-[1]">
+                                <h1 className="lg:text-[40px] font-semibold uppercase sm:text-[35px] text-[26px] leading-[1]">
                                     Generative AI
                                 </h1>
                                 <p className="mt-4 lg:text-[18px] sm:text-[16px] text-[14px] ">
@@ -223,14 +223,14 @@ export default function Home() {
 
                 </div>
             </section>
-            <section className=" lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap ">
+            <section className=" lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
+                <div className="row items-center ">
 
                     <div className="col-lg-6 order-lg-1 order-2 lg:pt-[80px] pt-[40px]">
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] sm:text-[30px] text-[22px] uppercase text-white ">
+                                <h1 className="lg:text-[40px] font-semibold sm:text-[30px] text-[22px] uppercase text-white ">
                                     Machine Learning
                                 </h1>
 
@@ -262,7 +262,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 w-full order-lg-2 order-1 ">
+                    <div className="col-lg-6 w-full order-lg-2 order-1 lg:sticky lg:max-h-screen lg:top-[200px] ">
                         <Image src="/assets/UI/imagebuhihii.png" alt="Web Design" width={700} height={450} loading="lazy" className="rounded-lg shadow-lg w-full " />
                     </div>
                 </div>
@@ -272,9 +272,9 @@ export default function Home() {
 
 
             </section>
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap flex-col md:flex-row items-start  ">
-                    <div className="col-lg-6 mb-4 w-full">
+            <section className="lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
+                <div className="row flex-col md:flex-row items-center  ">
+                    <div className="col-lg-6 mb-4 w-full lg:sticky lg:max-h-screen lg:top-[200px]">
                         <Image src="/assets/UI/imagehijijoj.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg shadow-lg  w-full " />
                     </div>
 
@@ -282,7 +282,7 @@ export default function Home() {
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] uppercase col-lg-7 sm:text-[35px] text-[26px] ">
+                                <h1 className="lg:text-[40px] font-semibold uppercase col-lg-7 sm:text-[35px] text-[26px] ">
                                     Computer Vision
                                 </h1>
                                 <p className="mt-4 text-[16px] font-bold">
@@ -312,14 +312,14 @@ export default function Home() {
 
                 </div>
             </section>
-            <section className=" lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap ">
+            <section className=" lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
+                <div className="row  items-center">
 
                     <div className="col-lg-6 order-lg-1 order-2 lg:pt-[80px] pt-[40px]">
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] sm:text-[30px] text-[22px] uppercase text-white ">
+                                <h1 className="lg:text-[40px] font-semibold sm:text-[30px] text-[22px] uppercase text-white ">
                                     Responsible AI
                                 </h1>
 
@@ -348,7 +348,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 w-full order-lg-2 order-1 ">
+                    <div className="col-lg-6 w-full order-lg-2 order-1  lg:sticky lg:max-h-screen lg:top-[200px]">
                         <Image src="/assets/UI/imagebuuuuhb.png" alt="Web Design" width={700} height={450} loading="lazy" className="rounded-lg shadow-lg w-full " />
                     </div>
                 </div>
@@ -358,9 +358,9 @@ export default function Home() {
 
 
             </section>
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap flex-col md:flex-row items-start  ">
-                    <div className="col-lg-6 mb-4 w-full">
+            <section className="lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
+                <div className="row flex-col md:flex-row items-center  ">
+                    <div className="col-lg-6 mb-4 w-full  lg:sticky lg:max-h-screen lg:top-[200px]">
                         <Image src="/assets/UI/imageihijij.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg shadow-lg  w-full " />
                     </div>
 
@@ -368,7 +368,7 @@ export default function Home() {
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] uppercase col-lg-7 sm:text-[35px] text-[26px] leading-[1]">
+                                <h1 className="lg:text-[40px] font-semibold uppercase col-lg-7 sm:text-[35px] text-[26px] leading-[1]">
                                     Secure AI
                                 </h1>
                                 <p className="mt-4 text-[16px] font-bold">
@@ -398,14 +398,14 @@ export default function Home() {
 
                 </div>
             </section>
-            <section className=" lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap ">
+            <section className=" lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
+                <div className="row items-center ">
 
                     <div className="col-lg-6 order-lg-1 order-2 lg:pt-[80px] pt-[40px]">
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] sm:text-[30px] text-[22px] uppercase text-white ">
+                                <h1 className="lg:text-[40px] font-semibold sm:text-[30px] text-[22px] uppercase text-white ">
                                     Data Services
                                 </h1>
 
@@ -434,7 +434,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 w-full order-lg-2 order-1 ">
+                    <div className="col-lg-6 w-full order-lg-2 order-1  lg:sticky lg:max-h-screen lg:top-[200px]">
                         <Image src="/assets/UI/imagehiijkm.png" alt="Web Design" width={700} height={450} loading="lazy" className="rounded-lg shadow-lg w-full " />
                     </div>
                 </div>
@@ -444,9 +444,9 @@ export default function Home() {
 
 
             </section>
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap flex-col md:flex-row items-start  ">
-                    <div className="col-lg-6 mb-4 w-full">
+            <section className="lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
+                <div className="row flex-col md:flex-row items-center ">
+                    <div className="col-lg-6 mb-4 w-full lg:sticky lg:max-h-screen lg:top-[200px]">
                         <Image src="/assets/UI/imageuhushuh.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg shadow-lg  w-full " />
                     </div>
 
@@ -454,7 +454,7 @@ export default function Home() {
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] uppercase col-lg-7 sm:text-[35px] text-[26px] leading-[1]">
+                                <h1 className="lg:text-[40px] font-semibold uppercase col-lg-7 sm:text-[35px] text-[26px] leading-[1]">
                                     AIOps and MLOps
                                 </h1>
                                 <p className="mt-4 text-[16px] font-bold">
@@ -503,7 +503,7 @@ export default function Home() {
             <section className="overflow-hidden lg:px-[80px] px-[40px] p pb-5">
                 <div className="container-fluid p-0 m-0">
                     <div className="col-lg-12">
-                        <div className="flex flex-wrap mb-4  justify-center ">
+                        <div className="flex flex-wrap items-center mb-4  justify-center ">
 
                             <div className="col-lg-4">
                                 <div className="flex justify-center">

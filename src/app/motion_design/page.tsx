@@ -27,9 +27,9 @@ export default function Home() {
                     <p className="text-gray-400 col-lg-5 lg:mt-8 mt-0 lg:text-[20px] sm:text-[20px] text-[15px] lg:leading-[35px] sm:leading-[25px]">
                     At <span className='text-white font-semibold'>Script Studio,</span> we specialize in <span className='text-white font-semibold'>motion design</span> to create visually immersive and captivating graphics for any project. Whether you want to grab attention or deliver your message with impact, we help make your brand memorable with expertly crafted <span className='text-white font-semibold'> motion graphics.</span></p>
                     <div className='pt-4'>
-                    <Link href="/Contactus" className='text-white'><button className="lg:px-5 lg:py-1 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
-                        <p className='p-0 m-0 lg:text-[0.8vw] sm:text[1vw] text-[3vw]'>GET A FREE CONSULTATION</p>
-                    </button></Link>
+                     <Link href="/Contactus" className='text-white no-underline'><button className="lg:px-5 lg:py-1 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
+                                            <p className='p-0 m-0 lg:text-[0.8vw] sm:text[1vw] text-[3vw]'>GET A FREE CONSULTATION</p>
+                                        </button></Link>
 
 
                     </div>
@@ -43,7 +43,7 @@ export default function Home() {
 
 
 
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]">
+            <section className="lg:px-[80px] px-[40px] lg:pt-[80px] pt-[40px]">
                 
                 <div className="flex flex-wrap items-center">
 
@@ -85,17 +85,17 @@ export default function Home() {
                     </div>
 
 
-                    <div className="col-lg-6 lg:pt-[80px] pt-[40px] order-lg-2 order-1">
+                    <div className="col-lg-6 lg:pt-[80px] pt-[40px] order-lg-2 order-1 lg:sticky lg:max-h-screen lg:top-[200px]">
 
                         <Image src="/assets/motion/imagecvvgu.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg w-full shadow-lg" />
                     </div></div>
             </section>
 
 
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]">
-                <div className="flex flex-wrap  ">
+            <section className="lg:px-[80px] px-[40px] lg:pt-[80px] pt-[40px]">
+                <div className="row items-center ">
 
-                    <div className="col-lg-6 ">
+                    <div className="col-lg-6 lg:sticky lg:max-h-screen lg:top-[200px] ">
                         <Image src="/assets/motion/imageb jiii.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg w-full shadow-lg " />
                     </div>
 
@@ -122,8 +122,8 @@ export default function Home() {
 
 
             </section>
-            <section className=" lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap ">
+            <section className=" lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
+                <div className="row items-center">
 
                     <div className="col-lg-6 order-lg-1 order-2 lg:pt-[80px] pt-[40px]">
                         <div className="flex justify-center">
@@ -148,7 +148,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 w-full order-lg-2 order-1 ">
+                    <div className="col-lg-6 w-full order-lg-2 order-1 lg:sticky lg:max-h-screen lg:top-[200px] ">
                         <Image src="/assets/motion/imageoiippp.png" alt="Web Design" width={700} height={450} loading="lazy" className="rounded-lg shadow-lg w-full " />
                     </div>
                 </div>
@@ -159,8 +159,8 @@ export default function Home() {
 
             </section>
             <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap flex-col md:flex-row items-start  ">
-                    <div className="col-lg-6 mb-4 w-full">
+                <div className="row items-center  ">
+                    <div className="col-lg-6 mb-4 w-full lg:sticky lg:max-h-screen lg:top-[200px]">
                         <Image src="/assets/motion/imagehiiinkp.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg shadow-lg  w-full " />
                     </div>
 

@@ -43,9 +43,9 @@ export default function Header1() {
               <MenuBar isMobile={width < 1020} />
             
             </div>
-            <div className='col-lg-2 lg:block hidden'>
-            <Link href="/" className="no-underline block ms-auto">
-                <button className='ff-Elight text-[#fff] text-[11px]  border-[1px] border-[#fff] px-[30px] py-[10px] rounded-[50px] '>LET’S TALK</button>
+            <div className='col-lg-2  justify-end lg:block hidden'>
+            <Link href="/" className="no-underline flex justify-end  ms-auto">
+                <button className='ff-Elight text-[#fff] text-[11px]   border-[1px] border-[#fff] px-[30px] py-[10px] rounded-[50px] '>LET’S TALK</button>
               </Link>
             </div>
           </div>

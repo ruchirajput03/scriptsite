@@ -37,48 +37,50 @@ export default function App() {
 
               <div className="col-lg-4">
                 <div className="flex justify-center">
-                  <div className='col-lg-10'>
+                  <a href="/blog_details" className="col-lg-10 no-underline text-white">
                     <Image
                       src="/assets/Rectangle 14.png"
                       alt="..."
                       width={500}
                       height={300}
-                      className="rounded-[10px] p-0 m-0 "
+                      className="rounded-[10px] p-0 m-0"
                     />
                     <p className="mt-4 text-[15px]">Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team</p>
                     <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>
-                  </div>
+                  </a>
                 </div>
               </div>
 
+
               <div className="col-lg-4">
                 <div className="flex justify-center">
-                  <div className='col-lg-10'>
+                  <a href="/blog_details" className="col-lg-10 no-underline text-white">
                     <Image
                       src="/assets/Rectangle 15.png"
                       alt="..."
                       width={500}
                       height={300}
-                      className="rounded-[10px] p-0 m-0 "
+                      className="rounded-[10px] p-0 m-0"
                     />
-                    <p className="mt-4 text-[15px]">Crafting the Design for Beyond the Screen Digital Products Marketplace</p>
+                    <p className="mt-4 text-[15px]">Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team</p>
                     <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>
-                  </div>
+                  </a>
                 </div>
               </div>
+
               <div className="col-lg-4">
                 <div className="flex justify-center">
-                  <div className='col-lg-10'>
+                  <a href="/blog_details" className="col-lg-10 no-underline text-white">
                     <Image
                       src="/assets/Rectangle 16.png"
                       alt="..."
                       width={500}
                       height={300}
-                      className="rounded-[10px] p-0 m-0 "
+                      className="rounded-[10px] p-0 m-0"
                     />
-                    <p className="mt-4 text-[15px]">Script Studio Technologies Claims Site of the Week at Awwwards!</p>
-                    <p className="mt-2 text-[10px] text-[#D1D1D1]">NOVEMBER 30, 2024</p>
-                  </div>
+                    <p className="mt-4 text-[15px]">Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team</p>
+                    <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>
+                  </a>
                 </div>
               </div>
             </div>
@@ -96,50 +98,50 @@ export default function App() {
 
               <div className="col-lg-4">
                 <div className="flex justify-center">
-                  <div className='col-lg-10'>
+                  <a href="/blog_details" className="col-lg-10 no-underline text-white">
                     <Image
                       src="/assets/image (88).png"
                       alt="..."
                       width={500}
                       height={300}
-                      className="rounded-[10px] p-0 m-0 "
+                      className="rounded-[10px] p-0 m-0"
                     />
                     <p className="mt-4 text-[15px]">Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team</p>
                     <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>
-                  </div>
+                  </a>
                 </div>
               </div>
 
               <div className="col-lg-4">
-                <div className="flex justify-center">
-                  <div className='col-lg-10'>
-                    <Image
-                      src="/assets/image (22).png"
-                      alt="..."
-                      width={500}
-                      height={300}
-                      className="rounded-[10px] p-0 m-0 "
-                    />
-                    <p className="mt-4 text-[15px]">Crafting the Design for Beyond the Screen Digital Products Marketplace</p>
-                    <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="flex justify-center">
-                  <div className='col-lg-10'>
-                    <Image
-                      src="/assets/image (1000).png"
-                      alt="..."
-                      width={500}
-                      height={300}
-                      className="rounded-[10px] p-0 m-0 "
-                    />
-                    <p className="mt-4 text-[15px]">Script Studio Technologies Claims Site of the Week at Awwwards!</p>
-                    <p className="mt-2 text-[10px] text-[#D1D1D1]">NOVEMBER 30, 2024</p>
-                  </div>
-                </div>
-              </div>
+  <div className="flex justify-center">
+    <a href="/blog_details" className="col-lg-10 no-underline text-white"> 
+      <Image
+        src="/assets/image (22).png"
+        alt="..."
+        width={500}
+        height={300}
+        className="rounded-[10px] p-0 m-0"
+      />
+      <p className="mt-4 text-[15px]">Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team</p>
+      <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>
+    </a>
+  </div>
+</div>
+<div className="col-lg-4">
+  <div className="flex justify-center">
+    <a href="/blog_details" className="col-lg-10 no-underline text-white"> 
+      <Image
+        src="/assets/image (1000).png"
+        alt="..."
+        width={500}
+        height={300}
+        className="rounded-[10px] p-0 m-0"
+      />
+      <p className="mt-4 text-[15px]">Script Studio technologies is on the Quest for Exceptional Talent to Join Our Team</p>
+      <p className="mt-2 text-[10px] text-[#D1D1D1]">DECEMBER 04, 2024</p>
+    </a>
+  </div>
+</div>
             </div>
 
           </div>
@@ -148,7 +150,7 @@ export default function App() {
 
         </div>
       </section>
-      
+
 
       <div >
         <section className="overflow-hidden lg:px-[80px] px-[40px] lg:pt-[40px] pt-[20px] lg:mb-[60px]">

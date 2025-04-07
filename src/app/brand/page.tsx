@@ -20,7 +20,7 @@ export default function Home() {
                 transition={{ duration: 1 }}
             >
                 <div className='col-lg-6'>
-                    <h1 className="lg:text-[60px] sm:text-[40px] text-[20px] lg:leading-[65px] sm:leading-[45px] leading-[35px]">
+                    <h1 className="lg:text-[60px] font-bold sm:text-[40px] text-[20px] lg:leading-[65px] sm:leading-[45px] leading-[35px]">
                         BRAND DESIGN SERVICES
                     </h1>
 
@@ -28,9 +28,9 @@ export default function Home() {
                 <div >
                     <p className="text-gray-400 lg:mt-4  lg:text-[20px] sm:text-[40px] text-[16px] lg:leading-[25px] sm:leading-[45px] leading-[35px]">
                         Create a Brand Your Customers Will Love</p>
-                    <button className=" lg:px-6 lg:py-2 px-2.5 mb-4  lg:mt-4 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
-                        <p className='p-0 m-0 lg:text-[0.8vw]'> GET A FREE CONSULTATION</p>
-                    </button>
+                        <Link href="/Contactus" className='text-white no-underline'><button className="lg:px-5 lg:py-1 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
+                        <p className='p-0 m-0 lg:text-[0.8vw] sm:text[1vw] text-[3vw]'>GET A FREE CONSULTATION</p>
+                    </button></Link>
                 </div>
 
                 <div className="lg:mt-16 flex justify-start w-full">
@@ -39,13 +39,13 @@ export default function Home() {
             </motion.section>
 
 
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
+            <section className="lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
                 <div className="pb-3 lg:pt-3 text-gray-400">Script Studio / Brand Design</div>
-                <div className="flex flex-wrap">
+                <div className="row items-center">
                     <div className="col-lg-6 order-lg-1 mt-4 order-2">
 
 
-                        <h1 className="lg:text-[60px] sm:text-[40px] uppercase text-[20px] lg:leading-[65px] sm:leading-[45px] leading-[35px] ">
+                        <h1 className="lg:text-[60px] font-semibold sm:text-[40px] uppercase text-[20px] lg:leading-[65px] sm:leading-[45px] leading-[35px] ">
                             Branding That Makes an Impact
                         </h1>
                         <div className="col-lg-9">
@@ -90,23 +90,23 @@ export default function Home() {
                     </div>
 
 
-                    <div className="col-lg-6 order-lg-2 order-1 lg:mt-20 mt-4">
+                    <div className="col-lg-6 order-lg-2 order-1 lg:sticky lg:max-h-screen lg:top-[200px] mt-4">
 
                         <Image src="/assets/Border27.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg w-full shadow-lg" />
                     </div></div>
             </section>
 
 
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap flex-col md:flex-row items-start  ">
-                    <div className="col-lg-6 rounded-lg shadow-lg ">
+            <section className="lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
+                <div className="row items-center">
+                    <div className="col-lg-6 rounded-lg shadow-lg lg:sticky lg:max-h-screen lg:top-[200px] ">
                         <div className="col-lg-11 w-full">
                         <Image src="/assets/ruchi.png" alt="Web Design" width={1080} height={1080} loading="lazy" className=" w-full" />
                     </div></div>
 
                     <div className="col-lg-6">
                         <div className="pb-3 pt-3 text-gray-400">BRANDING & CREATIVE AGENCY</div>
-                        <h1 className="lg:text-[40px] sm:text-[35px] text-[26px] leading-[1]">
+                        <h1 className="lg:text-[40px] font-semibold sm:text-[35px] text-[26px] leading-[1]">
                             EXPERT<br></br> DESIGNERS
                         </h1>
                         <h4 className='lg:text-[26px] sm:text-[24px] text-[22px] mt-4'>What Makes Us Different?</h4>
@@ -124,14 +124,14 @@ export default function Home() {
 
                 </div>
             </section>
-            <section className="  lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap">
+            <section className="  lg:px-[80px] px-[40px]  lg:pt-[80px] pt-[40px] ">
+                <div className="row items-center">
 
 
                     <div className="col-lg-6 order-lg-1 order-2 ">
                        
                         <div className="pb-3 pt-3 text-gray-400">CREATING BRANDS TO INSPIRE BUSINESS</div>
-                        <h1 className="lg:text-[40px] sm:text-[30px] text-[22px]  text-white leading-[1]">
+                        <h1 className="lg:text-[40px] font-semibold sm:text-[30px] text-[22px]  text-white leading-[1]">
                             BRANDING <br></br>AGENCY
                         </h1>
 
@@ -146,7 +146,7 @@ export default function Home() {
                         </div>
                     </div>
                     
-                    <div className="col-lg-6 w-full order-lg-2 order-1">
+                    <div className="col-lg-6 w-full order-lg-2 order-1 lg:sticky lg:max-h-screen lg:top-[200px]">
                   
                         <Image src="/assets/ruchi1.png" alt="Web Design" width={700} height={450} loading="lazy" className="rounded-lg shadow-lg w-full p-4 md:p-8" />
              
@@ -158,16 +158,16 @@ export default function Home() {
             </section>
 
 
-            <section className="lg:px-[80px] px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap flex-col md:flex-row items-start  ">
-                    <div className="col-lg-6 w-full">
+            <section className="lg:px-[80px] px-[40px] lg:pt-[80px] pt-[40px] ">
+                <div className="row items-center  ">
+                    <div className="col-lg-6 w-full lg:sticky lg:max-h-screen lg:top-[200px]">
                         <Image src="/assets/image-3.png" alt="Web Design" width={700} height={450} loading="lazy" className="rounded-lg w-full shadow-lg p-4 " />
                     </div>
 
                     <div className="col-lg-6 ">
                         <div className="col-lg-10">
                         <div className="pb-3 pt-3 text-gray-400">BUSINESS FOCUSED DESIGN</div>
-                        <h1 className="lg:text-[40px] sm:text-[35px] text-[26px] leading-[1]">
+                        <h1 className="lg:text-[40px] font-semibold  sm:text-[35px] text-[26px] leading-[1]">
                             Bespoke. Bold. Unforgettable.
                         </h1>
 
@@ -201,7 +201,7 @@ export default function Home() {
             <section className="overflow-hidden lg:px-[80px] px-[40px] p pb-5">
                 <div className="container-fluid p-0 m-0">
                     <div className="col-lg-12">
-                        <div className="flex flex-wrap mb-4  justify-center ">
+                        <div className="flex flex-wrap mb-4 items-center  justify-center ">
 
                             <div className="col-lg-4">
                                 <div className="flex justify-center">

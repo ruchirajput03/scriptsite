@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 
+
 import Header from "@/app/compontes/header"
 import Footer from "@/app/compontes/footer";
 // import "locomotive-scroll/dist/locomotive-scroll.css";
@@ -21,7 +22,7 @@ export default function Home() {
             <section className='lg:px-[80px]  px-[40px] lg:pt-[150px] pt-[150px] overflow-hidden' >
                 <div>
                 <div className='col-lg-6' >
-                    <h1 className="lg:text-[60px] sm:text-[40px] text-[20px] lg:leading-[65px] sm:leading-[45px] leading-[20px]">
+                    <h1 className="lg:text-[60px] font-bold sm:text-[40px] text-[20px] lg:leading-[65px] sm:leading-[45px] leading-[20px]">
                        GAME<br></br> DEVELOPMENT
                     </h1>
 
@@ -32,7 +33,7 @@ export default function Home() {
                     Welcome to<span className='text-white font-semibold'>Script Studio,</span>  where we blend <span className='text-white font-semibold'>Creativity </span> and <span className='text-white font-semibold'>Technology </span> to create <span className='text-white font-semibold'> Immersive Gaming Experiences.</span> As a trusted game development partner, we help you bring your game ideas to life with cutting-edge technology, captivating storytelling, and engaging gameplay. Whether it’s a<span className='text-white font-semibold'> Mobile Adventure,</span>  A  <span className='text-white font-semibold'>Console Masterpiece,</span>  or an <span className='text-white font-semibold'>NFT-Powered Universe,</span>  we have the expertise to create games that leave a lasting impact.
                     </p>
                     <div className='pt-4'>
-                    <Link href="/Contactus" className='text-white'><button className="lg:px-5 lg:py-1 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
+                    <Link href="/Contactus" className='text-white no-underline'><button className="lg:px-5 lg:py-1 px-2.5 py-2 border border-white lg:text-lg text-[12px] rounded-full hover:bg-white hover:text-black transition-all">
                         <p className='p-0 m-0 lg:text-[0.8vw] sm:text[1vw] text-[3vw]'>GET A FREE CONSULTATION</p>
                     </button></Link>
 
@@ -56,7 +57,7 @@ export default function Home() {
                     <div className="col-lg-6 order-lg-1 order-2 lg:pt-[80px] pt-[40px] ">
 
                         <div className="pb-3 mt-3 text-gray-400">Script Studio / Game development agency</div>
-                        <h1 className="lg:text-[35px] sm:text-[30px]  text-[20px]  uppercase  lg:leading-[40px] sm:leading-[45px] leading-[35px] ">
+                        <h1 className="lg:text-[35px] sm:text-[30px] font-semibold text-[20px]  uppercase  lg:leading-[40px] sm:leading-[45px] leading-[35px] ">
                         Your Trusted Game <br></br>Development Partner
                         </h1>
                         <div className="col-lg-8">
@@ -97,7 +98,7 @@ export default function Home() {
 
 
             <section className="lg:px-[80px]  px-[40px] overflow-hidden lg:pt-[80px] pt-[40px]">
-                <div className="flex flex-wrap  ">
+                <div className="flex flex-wrap items-center  ">
 
                     <div className="col-lg-6 ">
                         <Image src="/assets/motion/hiiiuybsu.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg w-full shadow-lg " />
@@ -107,7 +108,7 @@ export default function Home() {
                         <div className="flex justify-center">
                             <div className="col-lg-10 lg:pt-[80px] pt-[40px]">
 
-                                <h1 className="lg:text-[40px] sm:text-[30px] uppercase text-[20px]  text-white leading-[1]">
+                                <h1 className="lg:text-[40px] font-semibold sm:text-[30px] uppercase text-[20px]  text-white leading-[1]">
                                 Mobile Game<br></br> Development
                                 </h1>
 
@@ -139,13 +140,13 @@ export default function Home() {
 
             </section>
             <section className=" lg:px-[80px]  px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap ">
+                <div className="flex flex-wrap  items-center">
 
                     <div className="col-lg-6 order-lg-1 order-2 lg:pt-[80px] pt-[40px]">
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] sm:text-[30px] text-[22px] uppercase text-white ">
+                                <h1 className="lg:text-[40px] font-semibold sm:text-[30px] text-[22px] uppercase text-white ">
                                 PC Game <br></br>Development
                                 </h1>
 
@@ -184,7 +185,7 @@ export default function Home() {
 
             </section>
             <section className="lg:px-[80px]  px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap flex-col md:flex-row items-start  ">
+                <div className="flex flex-wrap flex-col md:flex-row items-center  ">
                     <div className="col-lg-6 mb-4 w-full">
                         <Image src="/assets/UI/imageojojojo.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg shadow-lg  w-full " />
                     </div>
@@ -193,7 +194,7 @@ export default function Home() {
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] uppercase sm:text-[35px] text-[26px] leading-[1]">
+                                <h1 className="lg:text-[40px] font-semibold uppercase sm:text-[35px] text-[26px] leading-[1]">
                                 Console Game <br/>Development
                                 </h1>
                                 <p className="mt-4 g:text-[18px] sm:text-[16px] text-[14px] font-bold">
@@ -225,13 +226,13 @@ export default function Home() {
                 </div>
             </section>
             <section className=" lg:px-[80px]  px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap ">
+                <div className="flex flex-wrap items-center ">
 
                     <div className="col-lg-6 order-lg-1 order-2 lg:pt-[80px] pt-[40px]">
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] sm:text-[30px] text-[22px] uppercase text-white ">
+                                <h1 className="lg:text-[40px] font-semibold sm:text-[30px] text-[22px] uppercase text-white ">
                                 Unity Game <br></br>Development
                                 </h1>
 
@@ -274,7 +275,7 @@ export default function Home() {
 
             </section>
             <section className="lg:px-[80px]  px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap flex-col md:flex-row items-start  ">
+                <div className="flex flex-wrap  flex-col md:flex-row items-center  ">
                     <div className="col-lg-6 mb-4 w-full">
                         <Image src="/assets/UI/imagehijijoj.png" alt="Web Design" width={1080} height={1080} loading="lazy" className="rounded-lg shadow-lg  w-full " />
                     </div>
@@ -283,7 +284,7 @@ export default function Home() {
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] uppercase col-lg-7 sm:text-[35px] text-[26px] ">
+                                <h1 className="lg:text-[40px] font-semibold uppercase col-lg-7 sm:text-[35px] text-[26px] ">
                                 Unreal Game <br></br>Development
                                 </h1>
                                 <p className="mt-4 text-[16px] font-bold">
@@ -314,13 +315,13 @@ export default function Home() {
                 </div>
             </section>
             <section className=" lg:px-[80px]  px-[40px] overflow-hidden lg:pt-[80px] pt-[40px] ">
-                <div className="flex flex-wrap ">
+                <div className="flex flex-wrap items-center ">
 
                     <div className="col-lg-6 order-lg-1 order-2 lg:pt-[80px] pt-[40px]">
                         <div className="flex justify-center">
                             <div className="col-lg-10">
 
-                                <h1 className="lg:text-[40px] sm:text-[30px] text-[22px] uppercase text-white ">
+                                <h1 className="lg:text-[40px] font-semibold sm:text-[30px] text-[22px] uppercase text-white ">
                                 NFT Game <br></br>Development
                                 </h1>
 
@@ -378,7 +379,7 @@ export default function Home() {
                        
                                         <section className="overflow-hidden lg:px-[80px] px-[40px] pt-1 pb-5">
                                           <div className="container-fluid p-0 m-0">
-                                            <div className="flex flex-wrap mb-4 justify-center ">
+                                            <div className="row items-center mb-4 justify-center ">
                                               <div className="col-lg-4">
                                                 <Image
                                                   src="/assets/Rectangle 14.png"
